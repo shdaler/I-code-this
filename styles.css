@@ -29,4 +29,6 @@ body {
 }
 
 .error {
+  font-size: 12rem;
+  font-weight: bold;
 }
