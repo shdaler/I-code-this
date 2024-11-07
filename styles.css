@@ -24,7 +24,7 @@ body {
 }
 
 .design {
-  margin-top: 2rem;
+  margin-top: 2.5rem;
   margin-bottom: 3.5rem;
 }
 
@@ -33,9 +33,10 @@ body {
   font-weight: bold;
 }
 
-.h1 {
+.container h1 {
   font-size: 1.25rem;
   margin-bottom: 4rem;
+  margin-top: 2rem;
 }
 .container p {
   font-size: 1.25rem;
