@@ -11,4 +11,7 @@ body {
     rgba(254, 107, 150, 1) 75%
   );
   min-height: 100vh;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  display: grid;
+  place-content: center;
 }
