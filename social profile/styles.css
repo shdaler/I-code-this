@@ -40,8 +40,10 @@ img {
   justify-content: center;
   align-items: center;
   gap: 0.5rem;
+  width: 100%;
   border: 0;
   border-radius: 2rem;
   padding: 1rem;
   cursor: pointer;
+  transition: all 200ms ease;
 }
