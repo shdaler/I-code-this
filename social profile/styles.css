@@ -37,8 +37,11 @@ img {
 
 .card__buttons {
   display: flex;
+  justify-content: center;
   align-items: center;
   gap: 0.5rem;
+  border: 0;
+  border-radius: 2rem;
   padding: 1rem;
   cursor: pointer;
 }
