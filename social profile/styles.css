@@ -17,6 +17,19 @@ body {
   place-content: center;
 }
 
+button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  width: 100%;
+  border: 0;
+  border-radius: 2rem;
+  padding: 1rem;
+  cursor: pointer;
+  transition: all 200ms ease;
+}
+
 .card {
   background-color: #fff;
   max-width: 600px;
@@ -33,17 +46,4 @@ body {
 img {
   max-width: 100%;
   display: block;
-}
-
-.card__buttons {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 0.5rem;
-  width: 100%;
-  border: 0;
-  border-radius: 2rem;
-  padding: 1rem;
-  cursor: pointer;
-  transition: all 200ms ease;
 }
