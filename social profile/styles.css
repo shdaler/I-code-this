@@ -34,3 +34,11 @@ img {
   max-width: 100%;
   display: block;
 }
+
+.card__buttons {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 1rem;
+  cursor: pointer;
+}
