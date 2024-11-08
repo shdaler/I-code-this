@@ -12,6 +12,18 @@ body {
     rgba(247, 241, 250, 1) 100%
   );
   min-height: 100vh;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   display: grid;
   place-content: center;
+}
+
+.card {
+  background-color: #fff;
+  max-width: 600px;
+  border: radius 1.75rem;
+  box-shadow: 0 5px 25px 1px #0000;
+  padding: 3rem;
+  margin: 1rem;
+  display: flex;
+  align-items: center;
 }
