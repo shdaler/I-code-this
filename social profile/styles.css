@@ -81,6 +81,15 @@ button:hover {
   font-weight: bold;
 }
 
+@media (max-width: 400px) {
+  .card {
+    padding: 3rem 2rem;
+  }
+  .card__buttons {
+    grid-template-columns: 1fr;
+  }
+}
+
 img {
   max-width: 100%;
   display: block;
