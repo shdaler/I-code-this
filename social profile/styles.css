@@ -76,6 +76,11 @@ button:hover {
   font-weight: bold;
 }
 
+.card__buttons-message {
+  background: #fdecd7;
+  font-weight: bold;
+}
+
 img {
   max-width: 100%;
   display: block;
