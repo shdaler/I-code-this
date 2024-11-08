@@ -60,6 +60,22 @@ button:hover {
   text-align: center;
 }
 
+.card__buttons {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.5rem;
+}
+
+.card__buttons-follow {
+  background: linear-gradient(
+    94deg,
+    rgba(250, 65, 100, 1) 0%,
+    rgba(250, 140, 62, 1) 100%
+  );
+  color: #fff;
+  font-weight: bold;
+}
+
 img {
   max-width: 100%;
   display: block;
