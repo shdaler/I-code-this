@@ -53,7 +53,7 @@ img {
   outline: 1px solid #6aaeea;
 }
 
-.right .login-btn {
+.right form .login-btn {
   width: 100%;
   cursor: pointer;
   border: none;
@@ -64,4 +64,16 @@ img {
 }
 
 .right form .submit {
+  background-color: #6aaeea;
+  color: #fff;
+}
+
+.right form .linkedin {
+  background-color: #0d65c2;
+  color: #fff;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
 }
