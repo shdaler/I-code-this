@@ -40,6 +40,7 @@ img {
 }
 
 .right form .item {
+  color: #4a4a4a;
   margin-bottom: 1.5rem;
   display: flex;
   flex-direction: column;
@@ -48,9 +49,15 @@ img {
 .right form .item input {
   background: #f9fcfe;
   padding: 1rem;
+  margin: 0.25rem 0;
   border-radius: 0.25rem;
   border: 0;
-  outline: 1px solid #6aaeea;
+  outline: 1px solid #bbd8f1;
+}
+
+input::placeholder {
+  color: #bcbcbc;
+  opacity: 1;
 }
 
 .right form .login-btn {
@@ -89,10 +96,38 @@ img {
   text-decoration: none;
   margin-top: auto;
   display: flex;
+
   align-items: center;
+  justify-content: center;
   gap: 0.5rem;
 }
 
 .right .bottom-link i {
   font-size: 0.25rem;
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+@media (max-width: 855px) {
+  .container {
+    max-width: 500px;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  .right {
+    padding: 2rem;
+  }
+  .right .bottom-link {
+    margin-top: 1rem;
+  }
+}
+
+@media (max-width: 590px) {
+  .right {
+    padding: 0;
+  }
+  .right .bottom-link {
+    font-size: 0.75rem;
+  }
 }
