@@ -6,4 +6,23 @@
 
 body {
   background: #f0f8ff;
+  min-height: 100vh;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  display: grid;
+  place-content: center;
+}
+
+img {
+  max-width: 100%;
+  border-radius: 0.5%;
+  display: block;
+}
+
+.container {
+  background-color: #fff;
+  min-width: 900px;
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 0.75rem;
+  gap: 4rem;
 }
