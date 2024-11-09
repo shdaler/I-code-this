@@ -79,7 +79,7 @@ img {
 }
 
 .right form p {
-  margin: 1.5rem 0;
+  margin: 1.1rem 0;
   display: flex;
   justify-content: center;
   color: #878787;
@@ -91,4 +91,8 @@ img {
   display: flex;
   align-items: center;
   gap: 0.5rem;
+}
+
+.right .bottom-link i {
+  font-size: 0.25rem;
 }
