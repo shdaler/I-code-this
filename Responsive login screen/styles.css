@@ -14,13 +14,13 @@ body {
 
 img {
   max-width: 100%;
-  border-radius: 0.5%;
+  border-radius: 0.5rem;
   display: block;
 }
 
 .container {
   background-color: #fff;
-  min-width: 900px;
+  max-width: 900px;
   padding: 1rem;
   margin: 1rem;
   border-radius: 0.75rem;
@@ -74,6 +74,21 @@ img {
   width: 100%;
   display: flex;
   justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.right form p {
+  margin: 1.5rem 0;
+  display: flex;
+  justify-content: center;
+  color: #878787;
+}
+
+.right a {
+  text-decoration: none;
+  margin-top: auto;
+  display: flex;
   align-items: center;
   gap: 0.5rem;
 }
