@@ -70,3 +70,9 @@ h1 {
 .card p:nth-child(3) {
   text-align: right;
 }
+
+@media (max-width: 768px) {
+  .testimonial-cards {
+    flex-direction: column;
+  }
+}
