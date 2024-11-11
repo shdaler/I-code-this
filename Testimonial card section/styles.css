@@ -31,6 +31,10 @@ h1 {
 
 .card {
   position: relative;
+}
+
+.card .testimonial-cards__desc {
+  position: relative;
   flex: 1;
   height: 290px;
   width: 43ch;
@@ -47,11 +51,10 @@ h1 {
   display: block;
   width: 100%;
   height: 100%;
-  top: 0;
-  left: 0;
-  transform: translate(10px, 10px);
+  bottom: -10px;
+  right: -10px;
   outline: 3px solid black;
-  z-index: -1;
+  z-index: 0;
 }
 
 .testimonial-cards__desc-quote {
