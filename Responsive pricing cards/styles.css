@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+}
+
+body {
+  background-color: #19223e;
+}
+
+button {
+  cursor: pointer;
+  background-color: transparent;
+  color: white;
+  font-size: 1.05rem;
+  padding: 0.75rem 2.5rem;
+  margin-top: 2rem;
+  border-radius: 6px;
+  outline: 1px solid #7a3af4;
+  transition: all 200ms ease;
+}
+
+button::hover {
+  background-color: #7a3af4;
+}
