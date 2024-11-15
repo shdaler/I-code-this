@@ -38,3 +38,8 @@ img {
 .card-title:hover {
   color: #23a2ec;
 }
+
+.card-info {
+  display: flex;
+  justify-content: space-between;
+}
