@@ -19,5 +19,22 @@ img {
 
 .card {
   background-color: #36474f;
-  min-width: 350px;
+  max-width: 350px;
+  outline: 1px solid #fff;
+}
+
+.card .card-top {
+  padding: 2rem;
+}
+
+.card-title {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  margin-top: 1rem;
+  font-size: 1rem;
+}
+
+.card-title:hover {
+  color: #23a2ec;
 }
