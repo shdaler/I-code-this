@@ -3,3 +3,20 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+body {
+  background-color: #111;
+  min-height: 100vh;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  display: grid;
+  place-content: center;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.card {
+  background-color: #36474f;
+}
