@@ -19,4 +19,5 @@ img {
 
 .card {
   background-color: #36474f;
+  min-width: 350px;
 }
