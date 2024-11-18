@@ -67,6 +67,11 @@ img {
   background-color: #5aa524;
 }
 
+.name {
+  margin: 1rem 0;
+  font-weight: bold;
+}
+
 .number-of-trees {
   color: #5aa524;
   width: fit-content;
@@ -75,4 +80,8 @@ img {
   font-size: 0.75rem;
   border: 1px solid #5aa524;
   border-radius: 15px;
+}
+.profiles-section .profile:hover .number-of-trees {
+  color: #0a1015;
+  border: 1px solid #000;
 }
