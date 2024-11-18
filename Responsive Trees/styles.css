@@ -96,3 +96,14 @@ img {
   border-radius: 8px;
   transition: all 200ms ease;
 }
+
+@media (max-width: 1024px) {
+  .profiles-section {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 540px) {
+  .profiles-section {
+    grid-template-columns: 1fr;
+  }
+}
