@@ -23,6 +23,7 @@ img {
   width: 70px;
   height: 70px;
   mask-border: 1rem;
+  border-radius: 50%;
 }
 
 .container {
@@ -49,4 +50,29 @@ img {
 
 .profiles-section {
   margin: 4rem 0;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+}
+
+.profile {
+  cursor: pointer;
+  background-color: #0a1015;
+  padding: 4rem;
+  border-radius: 8px;
+  transition: all 200ms ease;
+}
+
+.profile:hover {
+  background-color: #5aa524;
+}
+
+.number-of-trees {
+  color: #5aa524;
+  width: fit-content;
+  margin: auto;
+  padding: 4px 10px;
+  font-size: 0.75rem;
+  border: 1px solid #5aa524;
+  border-radius: 15px;
 }
