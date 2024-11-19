@@ -40,3 +40,24 @@ body {
   max-width: 450px;
   border-radius: 8px;
 }
+
+.half {
+  padding: 4rem 2rem;
+}
+
+.top-half {
+  text-align: center;
+}
+
+h1 {
+  font-size: 1.5rem;
+}
+
+.top-half p {
+  margin: 1.5rem auto;
+  max-width: 35ch;
+}
+
+.bottom-half {
+  display: flex;
+}
