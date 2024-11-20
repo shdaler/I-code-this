@@ -15,19 +15,18 @@ body {
 .container {
   max-width: 900px;
   height: auto;
-  background-color: #d8d8d8;
+  background-color: #efefef;
   padding: 2.5rem;
   border-radius: 0.5rem;
 }
 
 .container h1 {
-  font-size: 24px;
+  font-size: 18px;
 }
 
 .container-cards {
   display: flex;
   padding: 1rem 0rem;
-
   justify-content: space-between;
   gap: 1rem;
 }
@@ -63,8 +62,24 @@ body {
 .container__card-desc p.price {
   font-size: 2rem;
   font-weight: bold;
+  margin-bottom: 1.75rem;
 }
 
 .price span {
   font-size: 1rem;
+}
+
+.card button {
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+  cursor: pointer;
+  border: none;
+  padding: 0.5rem;
+  text-decoration: none;
+  color: #fff;
+  background-color: #000;
+  text-align: center;
+  font-size: 0.75rem;
+  border-radius: 0.25rem;
 }
