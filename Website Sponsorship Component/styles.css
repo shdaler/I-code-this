@@ -34,7 +34,7 @@ body {
 .card {
   width: 100%;
   background-color: #fff;
-  padding: 2.5rem 3rem;
+  padding: 2rem 3rem;
   border-radius: 0.25rem;
   position: relative;
 }
@@ -62,11 +62,16 @@ body {
 .container__card-desc p.price {
   font-size: 2rem;
   font-weight: bold;
-  margin-bottom: 1.75rem;
+  margin-bottom: 1rem;
 }
 
 .price span {
   font-size: 1rem;
+}
+
+.card p {
+  font-size: 0.85rem;
+  padding: 0.5rem;
 }
 
 .card button {
@@ -80,7 +85,7 @@ body {
   color: #fff;
   background-color: #000;
   text-align: center;
-  font-size: 0.75rem;
+  font-size: 0.85rem;
   border-radius: 0.25rem;
 }
 
@@ -88,4 +93,13 @@ ul.items {
   color: #878787;
   margin-top: 1.25rem;
   font-size: 14px;
+}
+
+.items li {
+  margin-left: 1rem;
+  margin-bottom: 0.4rem;
+}
+
+ul li::marker {
+  color: red;
 }
