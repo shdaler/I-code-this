@@ -18,3 +18,38 @@ body {
   background-color: rgb(21, 14, 45);
   border-radius: 4px;
 }
+
+.card-top {
+  background-color: rgb(27, 15, 58);
+  padding: 1rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pro {
+  padding: 0.25em;
+  background-color: rgb(228, 172, 42);
+  border-radius: 2px;
+  color: rgb(43, 13, 108);
+  font-weight: bold;
+  align-self: flex-start;
+}
+
+.user-picture img {
+  width: 90px;
+  height: 90px;
+  padding: 0.25rem;
+  border-radius: 50%;
+  outline: 1px solid #03bfcb;
+}
+
+.user-name {
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
+.card-bottom {
+  padding: 1rem;
+}
