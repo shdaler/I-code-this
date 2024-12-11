@@ -95,3 +95,13 @@ button {
   padding-left: 0.5rem;
   transition: all 200ms ease;
 }
+
+@media (max-width: 768px) {
+  .grid-card {
+    grid-template-columns: 1fr;
+  }
+
+  .card:nth-child(2) {
+    grid-row: 1;
+  }
+}
