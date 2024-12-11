@@ -82,3 +82,11 @@ button {
 .card-3 .list-item {
   margin: 1rem;
 }
+
+.card-3 .list-item i {
+  margin-right: 0.5rem;
+}
+
+.card-3 .list-item a {
+  color: #fff;
+}
