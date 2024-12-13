@@ -25,3 +25,16 @@ footer {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.column h3 {
+  margin-bottom: 1rem;
+}
+
+.column li {
+  text-decoration: none;
+}
+
+.column ul li {
+  margin-bottom: 1rem;
+  text-decoration: none;
+}
