@@ -2,7 +2,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  text-decoration: none;
+  list-style-type: none;
 }
 
 body {
@@ -30,11 +30,20 @@ footer {
   margin-bottom: 1rem;
 }
 
-.column li {
-  text-decoration: none;
-}
-
 .column ul li {
   margin-bottom: 1rem;
-  text-decoration: none;
+  width: fit-content;
+  cursor: pointer;
+}
+
+.column ul li:hover {
+  text-decoration: underline;
+}
+
+.column h2 {
+  margin-bottom: 1rem;
+}
+
+.column-1 .desc {
+  font-size: 0.9rem;
 }
