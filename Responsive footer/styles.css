@@ -2,8 +2,20 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  text-decoration: none;
 }
 
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  min-height: 100vh;
+  display: grid;
+  place-content: center;
+  background-color: #fff;
+  color: #fff;
+}
+
+footer {
+  background-image: url(./images/pexels-stefan-straka-27723-904382.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
