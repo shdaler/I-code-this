@@ -21,7 +21,9 @@ footer {
   grid-template-columns: 260px 200px 200px 200px;
   gap: 8rem;
   row-gap: 4rem;
-  background-image: url(./images/pexels-stefan-straka-27723-904382.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.449), rgba(0, 0, 0, 0.449)),
+    url(./images/pexels-stefan-straka-27723-904382.jpg);
+
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -46,4 +48,37 @@ footer {
 
 .column-1 .desc {
   font-size: 0.9rem;
+}
+
+@media (max-width: 768px) {
+  footer {
+    display: grid;
+    text-align: center;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+  }
+
+  .column-1 {
+    grid-column: span 2;
+  }
+
+  .column-2,
+  .column-3 {
+    grid-column: span 1;
+  }
+
+  .column-4 {
+    grid-column: span 1;
+  }
+
+  .copyright {
+    grid-column: span 2;
+    margin-top: 2rem;
+  }
+
+  .column ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
