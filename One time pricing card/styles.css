@@ -77,3 +77,44 @@ button:active {
   margin-bottom: 2rem;
   border-radius: 0.5rem;
 }
+
+.zip-code-form p {
+  font-weight: 500;
+  margin-bottom: 0.75rem;
+}
+
+.zip-code-form .zip-code-checker {
+  display: flex;
+  gap: 0.25rem;
+}
+
+.zip-code-form .zip-code-checker .zip-input {
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  border: 1px solid #b3aaff;
+  border-radius: 0.5rem;
+}
+
+.zip-code-form .zip-code-checker .zip-input input {
+  background-color: transparent;
+  border: 0;
+  outline: 0;
+}
+
+.zip-code-form .zip-code-checker .check-btn {
+  background-color: #fff;
+  padding: 1rem;
+  width: fit-content;
+}
+
+.bottom-btn {
+  background: linear-gradient(
+    15deg,
+    rgba(158, 194, 255, 1) 0%,
+    rgba(179, 170, 255, 1) 100%
+  );
+  color: #fff;
+  padding: 1.25rem;
+}
