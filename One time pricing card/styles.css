@@ -70,3 +70,10 @@ button:active {
 .benefit p span {
   text-decoration: underline;
 }
+
+.zip-code-form {
+  background-color: #f3f4ff;
+  padding: 0.75rem;
+  margin-bottom: 2rem;
+  border-radius: 0.5rem;
+}
