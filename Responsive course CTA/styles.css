@@ -30,4 +30,33 @@ button:hover {
 .container {
   background-color: #d4edee;
   max-width: 1200px;
+  padding: 6rem 2rem;
+  margin: 1rem;
+  border-radius: 0.75rem;
+}
+
+h2 {
+  margin-bottom: 2rem;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2rem;
+}
+
+.block {
+  padding: 2rem;
+  border-radius: 0.5rem;
+}
+
+.block h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.container p {
+  font-size: 1.15rem;
 }
