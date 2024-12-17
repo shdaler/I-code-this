@@ -26,3 +26,8 @@ button {
 button:hover {
   box-shadow: 0 0 15px #ffa593;
 }
+
+.container {
+  background-color: #d4edee;
+  max-width: 1200px;
+}
