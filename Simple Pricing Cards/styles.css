@@ -64,3 +64,32 @@ button:hover {
 .card-starter:hover {
   box-shadow: 0 0 25px 2px #7c54d1;
 }
+
+.card-starter .header-p {
+  font-weight: bold;
+  margin-bottom: 4rem;
+}
+
+.card-starter h3 {
+  color: #7c54d1;
+}
+
+.card-starter button {
+  background-color: transparent;
+  color: #7c54d1;
+  outline: 1px solid #7c54d1;
+  transition: all 200ms ease;
+}
+
+.card-starter button:hover {
+  color: #fff;
+  background-color: #7c54d1;
+}
+.card-professional {
+  border: 1rem solid #e1e1f6;
+  transform: all 200ms ease;
+}
+
+.card-professional {
+  box-shadow: 0 0 25px 2px #7c54d1;
+}
