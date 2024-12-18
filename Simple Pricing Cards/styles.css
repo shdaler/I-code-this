@@ -32,3 +32,26 @@ button:hover {
   grid-template-columns: 1fr 1fr;
   gap: 3rem;
 }
+
+.card {
+  background-color: #fff;
+  padding: 3rem 2.5rem;
+  border-radius: 0.5rem;
+}
+
+.card .benefits {
+  margin-bottom: 3rem;
+}
+
+.card .benefits .benefit {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.card .benefits .benefit i {
+  background-color: #fff;
+  color: #76a254;
+  border-radius: 50%;
+  padding: 0.25rem;
+}
