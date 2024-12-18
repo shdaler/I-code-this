@@ -55,3 +55,12 @@ button:hover {
   border-radius: 50%;
   padding: 0.25rem;
 }
+
+.card-starter {
+  border: 1rem solid #e1e1f6;
+  transform: all 200ms ease;
+}
+
+.card-starter:hover {
+  box-shadow: 0 0 25px 2px #7c54d1;
+}
