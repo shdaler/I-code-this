@@ -86,10 +86,34 @@ button:hover {
   background-color: #7c54d1;
 }
 .card-professional {
-  border: 1rem solid #e1e1f6;
+  border: 1rem solid #f1d4e4;
   transform: all 200ms ease;
 }
 
-.card-professional {
-  box-shadow: 0 0 25px 2px #7c54d1;
+.card-professional:hover {
+  box-shadow: 0 0 25px 2px #c4458a;
+}
+
+.card-professional .header-p {
+  margin-bottom: 4rem;
+}
+
+.card-professional .header-p span {
+  font-weight: bold;
+}
+
+.card-professional button {
+  background-color: #c4458a;
+  color: #fff;
+}
+@media (max-width: 568px) {
+  .container {
+    display: grid;
+
+    grid-template-columns: 1fr;
+  }
+
+  .card {
+    padding: 3rem 1.5rem;
+  }
 }
