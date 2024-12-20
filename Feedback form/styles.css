@@ -12,12 +12,12 @@ body {
   place-content: center;
 }
 
-.container {
+/* .container {
   background-color: #fff;
   max-width: 480px;
   padding: 4rem;
   margin: 1rem;
-}
+} */
 
 /* .container::before {
   content: "";
