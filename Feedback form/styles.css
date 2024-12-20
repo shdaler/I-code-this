@@ -11,3 +11,11 @@ body {
   display: grid;
   place-content: center;
 }
+
+.container {
+  background-color: #fff;
+  min-height: 480px;
+  padding: 4rem;
+  margin: 1rem;
+  position: relative;
+}
