@@ -12,14 +12,15 @@ body {
   place-content: center;
 }
 
-/* .container {
+.container {
   background-color: #fff;
   max-width: 480px;
   padding: 4rem;
   margin: 1rem;
-} */
+  position: relative;
+}
 
-/* .container::before {
+.container::before {
   content: "";
   width: 100%;
   height: 100%;
@@ -28,4 +29,31 @@ body {
   top: 8px;
   right: -8px;
   z-index: -1;
-} */
+}
+
+.container h1 {
+  margin-bottom: 1rem;
+}
+
+.container p {
+  margin-bottom: 2rem;
+}
+
+.container textarea {
+  width: 100%;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+  resize: none;
+}
+
+form .form-item {
+  margin-bottom: 1rem;
+  display: flex;
+  gap: 0.5rem;
+}
+
+form .form-item input[type="checkbox"] {
+  accent-color: #ffa600;
+  height: 24px;
+  width: 24px;
+}
