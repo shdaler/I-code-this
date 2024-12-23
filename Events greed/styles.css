@@ -68,3 +68,27 @@ body {
 .time {
   font-size: 0.95rem;
 }
+
+@media (max-width: 956px) {
+  .grid-container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 600px) {
+  .grid-container {
+    padding: 1rem;
+    grid-template-columns: 1fr;
+  }
+  .item {
+    padding: 1.5rem;
+  }
+
+  .day {
+    font-size: 3rem;
+  }
+
+  .event-name {
+    font-size: 1.25rem;
+  }
+}
