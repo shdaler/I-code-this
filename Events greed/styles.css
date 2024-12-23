@@ -3,3 +3,11 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+body {
+  background-color: #eaecf9;
+  min-height: 100vh;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  display: grid;
+  place-content: center;
+}
