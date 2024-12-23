@@ -11,3 +11,13 @@ body {
   display: grid;
   place-content: center;
 }
+
+.grid-container {
+  background-color: #fff;
+  padding: 2rem;
+  margin: 1rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-auto-rows: 1fr;
+  gap: 1rem;
+}
