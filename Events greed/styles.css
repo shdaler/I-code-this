@@ -51,3 +51,20 @@ body {
   font-size: 3.25rem;
   font-weight: bold;
 }
+
+.event-name {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-bottom: 2rem;
+}
+
+.extra {
+  margin-top: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.time {
+  font-size: 0.95rem;
+}
