@@ -21,3 +21,29 @@ body {
   grid-auto-rows: 1fr;
   gap: 1rem;
 }
+
+.item {
+  background-color: #554baa;
+  color: #eaecf9;
+  max-width: 350px;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  transition: all 200ms ease;
+}
+
+.item:nth-child(even) {
+  background-color: #eaecf9;
+  color: #554baa;
+}
+
+.item:hover {
+  cursor: pointer;
+  box-shadow: 0 0 20px #554baa;
+}
+
+.item .day {
+  margin-bottom: 0.5rem;
+  font-size: 3.25rem;
+  font-weight: bold;
+}
