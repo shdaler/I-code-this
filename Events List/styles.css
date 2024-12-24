@@ -62,4 +62,21 @@ body {
   background-color: transparent;
   padding: 1rem;
   text-wrap: nowrap;
+  align-self: start;
+  border: 0;
+  border-radius: 0.5rem;
+  transition: all 200ms ease;
+}
+
+.events-list .item .add-to-calendar:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  .events-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
 }
