@@ -79,4 +79,15 @@ body {
     grid-template-columns: 1fr 1fr;
     gap: 1rem;
   }
+
+  .events-list .item .date {
+    height: min-content;
+  }
+
+  .events-list .item .name {
+    grid-column: 2/-1;
+  }
+  .events-list .item .add-to-calendar {
+    grid-column: 1/-1;
+  }
 }
