@@ -19,3 +19,18 @@ body {
   margin: 1rem;
   border-radius: 1.25rem;
 }
+
+.container h1 {
+  margin-bottom: 1.25rem;
+  font-size: 1.75rem;
+}
+
+.container form .form-item {
+  margin-bottom: 1rem;
+}
+
+.container form .form-item div {
+  margin-bottom: 0.5rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
