@@ -86,3 +86,14 @@ body {
   background-color: #5e9d00;
   color: #fff;
 }
+
+@media (max-width: 400px) {
+  .container form .form-item div {
+    grid-template-columns: 1fr;
+    gap: 0.5rem;
+  }
+
+  .container form .small {
+    font-size: 0.7rem;
+  }
+}
