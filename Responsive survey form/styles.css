@@ -34,3 +34,17 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
+
+.container form div {
+  margin-bottom: 1.5rem;
+}
+
+.container form div input[type="radio"] {
+  appearance: none;
+  width: 0.5rem;
+  height: 0.5rem;
+  margin-right: 0.5rem;
+  outline: 3px solid #5e9d00;
+  outline-offset: 3px;
+  border-radius: 50%;
+}
