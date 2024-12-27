@@ -64,3 +64,67 @@ img {
   border-radius: 0.5rem;
   transition: all 200ms ease;
 }
+
+.left form .form-actions button:hover {
+  box-shadow: 0 0 15px 5px #046586;
+}
+
+.left form .form-actions button i {
+  margin-left: 0.5rem;
+}
+
+.left .line {
+  background-color: #d4d4d4;
+  height: 1.5px;
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.left .extra-options {
+  color: #d4d4d4;
+  margin-bottom: 2rem;
+  text-align: center;
+  display: block;
+}
+
+.left .social-login {
+  margin-bottom: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.left .social-login .social-btn {
+  color: #000;
+  text-align: center;
+  padding: 0.75rem;
+  text-decoration: none;
+  outline: 1px solid #d4d4d4;
+  transition: all 200ms ease;
+}
+
+.left .social-login .social-btn:hover {
+  box-shadow: 0 0 15px 5px #046586;
+}
+
+.left .social-login .social-btn i {
+  color: #046586;
+  font-size: 1.5rem;
+}
+
+.left .small-text {
+  text-align: center;
+}
+
+.left .small-text a {
+  color: #046586;
+}
+
+.right .right-img {
+  height: 100%;
+}
+
+.right .right-img img {
+  height: 100%;
+  object-fit: cover;
+}
