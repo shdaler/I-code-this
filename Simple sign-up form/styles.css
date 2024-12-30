@@ -47,3 +47,28 @@ body {
 .container h1 {
   margin-bottom: 1rem;
 }
+
+.container p {
+  margin-bottom: 1rem;
+}
+
+.container .or {
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.container .join-btn {
+  background-color: #4968ad;
+  color: #fff;
+}
+
+form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem 0.5rem;
+}
+
+form .form-item input {
+  width: 100%;
+  padding: 0.5rem;
+}
