@@ -72,3 +72,28 @@ form .form-item input {
   width: 100%;
   padding: 0.5rem;
 }
+
+form .form-item:nth-child(3),
+form .form-item:nth-child(4),
+form .form-item:nth-child(5) {
+  grid-column: span 2;
+}
+
+form .form-item .create-btn {
+  background-color: #1e2c4b;
+  color: #fff;
+}
+
+.container .terms {
+  font-size: 0.8rem;
+}
+
+.container .terms a {
+  color: #000;
+}
+
+@media (max-width: 540px) {
+  .container {
+    padding: 2rem 1rem;
+  }
+}
