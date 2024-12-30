@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Simple sign-up form</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <div class="container">
@@ -13,29 +14,29 @@
       <button class="join-btn">Join with Facebook</button>
 
       <span class="or">or</span>
+
+      <form>
+        <div class="form-item">
+          <input type="text" placeholder="First name" />
+        </div>
+        <div class="form-item">
+          <input type="text" placeholder="Last name" />
+        </div>
+        <div class="form-item">
+          <input type="email" placeholder="Email" />
+        </div>
+        <div class="form-item">
+          <input type="password" placeholder="Password" />
+        </div>
+        <div class="form-item">
+          <button class="create-btn">Create New Account</button>
+        </div>
+      </form>
+
+      <p class="terms">
+        By joining, you agree to our <a href="#">Terms of service</a> and
+        <a href="#">Privacy Policy</a>.
+      </p>
     </div>
-
-    <form>
-      <div class="form-item">
-        <input type="text" placeholder="First name" />
-      </div>
-      <div class="form-item">
-        <input type="text" placeholder="Last name" />
-      </div>
-      <div class="form-item">
-        <input type="email" placeholder="Email" />
-      </div>
-      <div class="form-item">
-        <input type="password" placeholder="Password" />
-      </div>
-      <div class="form-item">
-        <button class="create-btn">Create New Account</button>
-      </div>
-    </form>
-
-    <p class="terms">
-      By joining, you agree to our <a href="#">Terms of service</a> and
-      <a href="#">Privacy Policy</a>.
-    </p>
   </body>
 </html>

@@ -12,3 +12,38 @@ body {
   display: grid;
   place-content: center;
 }
+
+.container {
+  background-color: #fff;
+  max-width: 450px;
+  padding: 2rem 4rem;
+  text-align: center;
+  position: relative;
+  border-radius: 1rem;
+}
+
+.container:before {
+  content: "";
+  background-color: #ddf0f7;
+  width: 110%;
+  height: 110%;
+  position: absolute;
+  top: -5%;
+  left: -5%;
+  z-index: -1;
+  border-radius: 1rem;
+}
+
+.container button {
+  cursor: pointer;
+  width: 100%;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  border-radius: 0.25rem;
+  border: 0;
+  outline: 0;
+}
+
+.container h1 {
+  margin-bottom: 1rem;
+}
