@@ -41,3 +41,29 @@ button:hover {
   outline: 1.5rem solid #fff;
   border-radius: 0.5rem;
 }
+
+.card {
+  padding: 2rem;
+}
+
+.card h1 {
+  margin-bottom: 2rem;
+  font-size: 1.74rem;
+  font-weight: bold;
+}
+
+.card .price {
+  margin-bottom: 2rem;
+}
+
+.card .price .cost {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.card .price .cost span {
+  font-size: 4rem;
+}
+
+.card .price .users {
+}
