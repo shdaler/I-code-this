@@ -66,4 +66,34 @@ button:hover {
 }
 
 .card .price .users {
+  font-weight: 600;
+}
+
+.card .tier-info {
+  margin-bottom: 2rem;
+  font-style: 1.15rem;
+  font-weight: 600;
+}
+
+.card .tier-info {
+  margin-bottom: 2rem;
+  font-size: 1.15rem;
+  font-weight: 600;
+}
+
+.card .free-btn {
+  background-color: #edbbff;
+}
+.card .standard-btn {
+  background-color: #aed1d5;
+}
+
+.card .premium-btn {
+  background-color: #ffddb6;
+}
+
+@media (max-width: 768px) {
+  .grid-container {
+    grid-template-columns: 1fr;
+  }
 }
