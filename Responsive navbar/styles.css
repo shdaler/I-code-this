@@ -41,3 +41,31 @@ nav {
   text-decoration: none;
   text-shadow: -6px 6px 15px #000000cc;
 }
+
+.nav-list .drop-down {
+  position: relative;
+}
+
+.nav-list .drop-downp .drop-down-menu {
+  margin-top: 0.5rem;
+  display: none;
+  position: absolute;
+  outline: 2px solid #62d4e6;
+}
+
+.nav-list .drop-down .drop-down-menu li:hover {
+  background-color: #62d4e6;
+}
+
+.nav-list .drop-down .drop-down-menu li:not(:last-child) {
+  border-bottom: 2px solid #62d4e6;
+}
+
+.nav-list .drop-down .drop-down-menu li a {
+  color: #fff;
+  margin-bottom: 0.5rem;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
