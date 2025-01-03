@@ -11,3 +11,16 @@ body {
   min-height: 100vh;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
+
+nav {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.line {
+  background-color: #62d4e6;
+  margin-top: 4rem;
+  height: 5px;
+  width: 100%;
+}
