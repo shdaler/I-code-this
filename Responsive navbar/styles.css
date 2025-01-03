@@ -24,3 +24,20 @@ nav {
   height: 5px;
   width: 100%;
 }
+
+.nav-list {
+  font-size: 1.5rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.nav-list li {
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+}
+.nav-list li a,
+.nav-list .drop-down span {
+  color: #fff;
+  text-decoration: none;
+  text-shadow: -6px 6px 15px #000000cc;
+}
