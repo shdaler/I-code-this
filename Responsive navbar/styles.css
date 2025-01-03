@@ -69,3 +69,22 @@ nav {
   align-items: center;
   gap: 1rem;
 }
+
+.nav-list .drop-down .drop-down-menu li i {
+  display: block;
+  width: 20px;
+  height: 20px;
+}
+
+.nav-list .drop-down:hover .drop-down-menu {
+  display: block;
+}
+
+@media (max-width: 540px) {
+  .nav-list {
+    flex-direction: column;
+  }
+  .nav-list .drop-down:hover .drop-down-menu {
+    background-color: #1f82b8;
+  }
+}
