@@ -68,12 +68,11 @@ body {
   text-align: left;
   position: absolute;
   right: -225px;
-  bottom: -50%;
+  bottom: -50%; /* This positions the menu just below the button */
   border-radius: 1rem;
   display: none;
 }
-
-.card .more-menu .show {
+.card .more-menu.show {
   display: block;
 }
 
