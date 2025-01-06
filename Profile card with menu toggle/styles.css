@@ -72,3 +72,24 @@ body {
   border-radius: 1rem;
   display: none;
 }
+
+.card .more-menu .show {
+  display: block;
+}
+
+.card .more-menu ul li {
+  cursor: pointer;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+
+.card .more-menu ul li:hover {
+  background-color: #2d2559;
+}
+
+@media (max-width: 768px) {
+  .card .more-menu {
+    right: 10%;
+    bottom: -400px;
+  }
+}
