@@ -49,3 +49,26 @@ body {
   border-radius: 0.5rem;
   outline: 1px solid #d6ddf4;
 }
+
+.card .profile-actions .action:hover {
+  background-color: #120c35;
+  color: #fff;
+}
+
+.card .profile-actions .action .button-icon {
+  font-size: 1.75rem;
+  margin-bottom: 0.5rem;
+}
+
+.card .more-menu {
+  background-color: #120c35;
+  color: #fff;
+  width: 250px;
+  padding: 1rem;
+  text-align: left;
+  position: absolute;
+  right: -225px;
+  bottom: -50%;
+  border-radius: 1rem;
+  display: none;
+}
