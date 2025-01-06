@@ -26,4 +26,26 @@ body {
 }
 
 .card .profile-img img {
+  border-radius: 50%;
+  background-color: #d6ddf4;
+  padding: 0.75em;
+}
+
+.card .job {
+  margin: 1rem 0 2rem;
+}
+
+.card .profile-actions {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 0.5rem;
+}
+
+.card .profile-actions .action {
+  cursor: pointer;
+  background-color: transparent;
+  padding: 0.5rem;
+  border: 0;
+  border-radius: 0.5rem;
+  outline: 1px solid #d6ddf4;
 }
