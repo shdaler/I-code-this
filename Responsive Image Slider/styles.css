@@ -11,3 +11,8 @@ body {
   display: grid;
   place-content: center;
 }
+
+img {
+  max-width: 100%;
+  display: block;
+}
