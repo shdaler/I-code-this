@@ -16,3 +16,10 @@ img {
   max-width: 100%;
   display: block;
 }
+
+.container {
+  background-color: #fff;
+  max-width: 1000px;
+  padding: 2rem 4rem;
+  margin: 1rem;
+}
