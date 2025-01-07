@@ -50,5 +50,7 @@ img {
 
 .blaze-container button {
   cursor: pointer;
+  background-color: transparent;
+  font-size: 1.65rem;
+  border: 0;
 }
-
