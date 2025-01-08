@@ -105,3 +105,38 @@ button:hover {
   border-radius: 50%;
   animation: flash 1000ms infinite alternate;
 }
+
+@keyframes flash {
+  0% {
+    background-color: #000;
+  }
+
+  100% {
+    background-color: #40fb2a;
+  }
+}
+
+.card .btns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.75rem;
+}
+
+.card .btns .reviews,
+.card .btns .favorites {
+  cursor: pointer;
+  background-color: #000;
+  color: #fff;
+  padding: 0.5rem;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  outline: 1px solid #fff;
+  border-radius: 0.5rem;
+}
+
+.card .btns svg {
+  width: 20px;
+}
