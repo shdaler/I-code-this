@@ -91,3 +91,17 @@ button:hover {
   border: 0;
   border-radius: 0.5rem;
 }
+
+.card .stock-number {
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.card .stock-number .green-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  animation: flash 1000ms infinite alternate;
+}
