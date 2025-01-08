@@ -1,4 +1,25 @@
 * {
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #333;
+  color: #fff;
+  min-height: 100vh;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  display: grid;
+  place-content: center;
+}
+
+img,
+svg {
+  max-width: 100%;
+  display: block;
+}
+
+button:hover {
+  box-shadow: 0 0 15px 5px #3ffb2a81;
+  transition: all 200ms ease;
 }
