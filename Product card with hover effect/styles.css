@@ -68,3 +68,26 @@ button:hover {
   font-size: 0.825rem;
   text-decoration: line-through;
 }
+
+.card .new-price {
+  font-size: 2.25rem;
+  font-weight: 600;
+}
+
+.card .terms {
+  color: #999;
+  margin-bottom: 1.5rem;
+  font: size 0.825rem;
+}
+
+.card .card-btn {
+  cursor: pointer;
+  background-color: #40fb2a;
+  width: 100%;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  border: 0;
+  border-radius: 0.5rem;
+}
