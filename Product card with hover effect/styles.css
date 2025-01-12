@@ -82,7 +82,7 @@ button:hover {
 
 .card .cart-btn {
   cursor: pointer;
-  background-color: #40fb2a;
+  background-color: #3ffb2af7;
   width: 100%;
   padding: 1rem;
   margin-bottom: 1rem;
@@ -108,7 +108,7 @@ button:hover {
 
 @keyframes flash {
   0% {
-    background-color: #000;
+    background-color: #060606;
   }
 
   100% {
