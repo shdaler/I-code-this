@@ -26,3 +26,11 @@ button {
   border-radius: 0.5rem;
   transition: all 200ms ease;
 }
+
+button:hover {
+  transform: scale(1.05);
+}
+
+small {
+  font-weight: 600;
+}
