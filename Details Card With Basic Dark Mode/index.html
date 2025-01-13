@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Details card</title>
     <link rel="stylesheet" href="styles.css" />
     <link
       rel="stylesheet"
@@ -11,5 +11,20 @@
     />
     <script src="main.js" defer></script>
   </head>
-  <body></body>
+  <body>
+    <div id="card" class="card">
+      <div class="about">
+        <p>ABOUT THE COMMUNITY</p>
+        <div id="dots" class="dots">
+          <i class="fa-solid fa-ellipsis"></i>
+          <div id="theme-select" class="theme-select">
+            <select name="theme" id="theme">
+              <option value="light">Light</option>
+              <option value="blue">Blue</option>
+            </select>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
