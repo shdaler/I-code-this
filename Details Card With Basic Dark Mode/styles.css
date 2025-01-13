@@ -34,3 +34,35 @@ button:hover {
 small {
   font-weight: 600;
 }
+
+.dark-mode {
+  background-color: #333;
+  background: linear-gradient(
+    159deg,
+    rgba(138, 166, 206) 0%,
+    rgba(18, 31, 96) 100%
+  );
+  color: #fff;
+}
+
+.card {
+  background-color: #fff;
+  padding: 4rem;
+  margin: 1rem;
+  max-width: 500px;
+  border-radius: 2rem;
+  box-shadow: 5px 10px 25px 1px #1e141175;
+  position: relative;
+}
+
+.card::before {
+  content: "";
+  display: block;
+  width: 95%;
+  height: 90%;
+  background: linear-gradient(
+    75deg,
+    rgba(217, 204, 200, 1) 0%,
+    rgba(180, 157, 149, 1) 100%
+  );
+}
