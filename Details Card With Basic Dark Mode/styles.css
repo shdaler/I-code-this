@@ -132,3 +132,25 @@ small {
 .card .buttons .joined {
   outline: 1px solid #1e1411;
 }
+
+.card .buttons .joined-dark {
+  color: #fff;
+  outline: 1px solid #fff;
+}
+
+.card .buttons .post {
+  background-color: #1e1411;
+  color: #ede9e2;
+}
+
+@media (max-width: 540px) {
+  .card {
+    padding: 2rem;
+  }
+  .stats {
+    gap: 3rem;
+  }
+  .buttons {
+    grid-template-columns: 1fr;
+  }
+}
