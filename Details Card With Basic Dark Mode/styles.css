@@ -133,7 +133,7 @@ small {
   outline: 1px solid #1e1411;
 }
 
-.card .buttons .joined-dark {
+.card .buttons .joined.dark {
   color: #fff;
   outline: 1px solid #fff;
 }

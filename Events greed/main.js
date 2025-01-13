@@ -7,3 +7,17 @@ const themeSelect = document.getElementById("joined");
 dotsEl.addEventListener("click", () => {
   themeSelect.classList.toggle("show");
 });
+
+themeSelect.addEventListener("change", () => {
+  const selectedTheme = themeSelect.value;
+
+  if (selectedTheme === "blue") {
+    document.body.classList.add("dark-mode");
+    cardEl.classList.add("dark-mode");
+    joinedButton.classList.add("dark");
+  } else {
+    document.body.classList.remove("dark-mode");
+    cardEl.classList.remove("dark-mode");
+    joinedButton.classList.remove("dark");
+  }
+});
