@@ -12,7 +12,7 @@ dotsEl.addEventListener("click", () => {
 themeSelect.addEventListener("change", () => {
   const selectedTheme = themeSelect.value;
 
-  if (themeSelect === "blue") {
+  if (selectedTheme === "blue") {
     document.body.classList.add("dark-mode");
     cardEl.classList.add("dark-mode");
     joinedButton.classList.add("dark");
