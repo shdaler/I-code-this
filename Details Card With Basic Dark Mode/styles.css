@@ -3,3 +3,16 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+body {
+  background: linear-gradient(
+    159deg,
+    rgba(217, 204, 200, 1) 0%,
+    rgba(180, 157, 149, 1) 100%
+  );
+  color: #1e1411;
+  min-height: 100vh;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  display: grid;
+  place-content: center;
+}
