@@ -72,3 +72,19 @@ small {
   transform: translateX(-50%);
   z-index: -1;
 }
+
+.card .about {
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card .about .dots {
+  position: relative;
+  font-size: 1.5rem;
+}
+
+.card .about .dots i {
+  cursor: pointer;
+}
