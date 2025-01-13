@@ -88,3 +88,14 @@ small {
 .card .about .dots i {
   cursor: pointer;
 }
+
+.card .about .dots .theme-select #theme {
+  background-color: #fff;
+  padding: 0.25rem;
+  opacity: 0;
+  pointer-events: none;
+  position: absolute;
+  top: 30px;
+  right: 0px;
+  transition: opacity 200ms ease;
+}
