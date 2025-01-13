@@ -1,8 +1,9 @@
 const dotsEl = document.getElementById("dots");
 
 const themeSelect = document.getElementById("theme");
+
 const cardEl = document.getElementById("card");
-const themeSelect = document.getElementById("joined");
+const joinedButton = document.getElementById("joined");
 
 dotsEl.addEventListener("click", () => {
   themeSelect.classList.toggle("show");
@@ -11,7 +12,7 @@ dotsEl.addEventListener("click", () => {
 themeSelect.addEventListener("change", () => {
   const selectedTheme = themeSelect.value;
 
-  if (selectedTheme === "blue") {
+  if (themeSelect === "blue") {
     document.body.classList.add("dark-mode");
     cardEl.classList.add("dark-mode");
     joinedButton.classList.add("dark");
