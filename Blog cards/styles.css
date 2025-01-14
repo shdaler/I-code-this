@@ -85,3 +85,9 @@ img {
 .profile-info .profile-name {
   margin-right: auto;
 }
+
+.profile-info .profile-img img {
+  width: 40px;
+  margin-right: 0.5rem;
+  border-radius: 50%;
+}
