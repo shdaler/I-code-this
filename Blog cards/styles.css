@@ -87,7 +87,19 @@ img {
 }
 
 .profile-info .profile-img img {
+  object-fit: cover;
   width: 40px;
+  height: 40px;
   margin-right: 0.5rem;
   border-radius: 50%;
+}
+
+.profile-info .profile-name .position,
+.profile-info .profile-date {
+  color: #8b8b8b;
+}
+
+.card:hover {
+  scale: 1.05;
+  box-shadow: 1px 1px 31px 1px rgba(0, 0, 0, 0.6);
 }
