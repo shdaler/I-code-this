@@ -81,3 +81,7 @@ img {
   align-items: center;
   justify-content: space-between;
 }
+
+.profile-info .profile-name {
+  margin-right: auto;
+}
