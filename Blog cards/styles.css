@@ -34,3 +34,17 @@ img {
   border-radius: 4px;
   transition: all 200ms ease;
 }
+
+.new-card {
+  position: relative;
+}
+
+.new-card .new-tag {
+  background-color: #f85e8a;
+  color: #fff;
+  padding: 0.25rem;
+  position: absolute;
+  top: -25px;
+  left: 10px;
+  border-radius: 4px;
+}
