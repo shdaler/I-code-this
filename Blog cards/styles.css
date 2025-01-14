@@ -25,3 +25,12 @@ img {
   flex-wrap: wrap;
   gap: 2rem;
 }
+
+.card {
+  cursor: pointer;
+  background-color: #fff;
+  max-width: 22rem;
+  box-shadow: 1px 1px 13px -1px rgba(0, 0, 0, 0.6);
+  border-radius: 4px;
+  transition: all 200ms ease;
+}
