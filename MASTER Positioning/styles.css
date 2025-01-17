@@ -80,3 +80,31 @@ body {
 .challenges .challenge .submit-challenge button:hover {
   background-color: #8f67ff;
 }
+
+@media (max-width: 768px) {
+  body {
+    display: initial;
+  }
+
+  .container {
+    width: 90%;
+    margin: auto;
+  }
+
+  .challenges .challenge {
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  .challenges .challenge .challenge-description {
+    margin: initial;
+  }
+
+  .challenges .challenge .challenge-description .challenge-info {
+    text-align: center;
+    justify-content: space-between;
+  }
+}
