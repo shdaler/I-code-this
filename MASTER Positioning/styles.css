@@ -107,4 +107,7 @@ body {
     text-align: center;
     justify-content: space-between;
   }
+
+  .challenges .challenge .submit-challenge,
+  .challenges .challenge .challenge-description;
 }
