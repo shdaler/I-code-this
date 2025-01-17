@@ -109,5 +109,7 @@ body {
   }
 
   .challenges .challenge .submit-challenge,
-  .challenges .challenge .challenge-description;
+  .challenges .challenge .submit-challenge button {
+    width: 100%;
+  }
 }
