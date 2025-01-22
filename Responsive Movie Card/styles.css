@@ -62,8 +62,30 @@ a {
   color: #cd3e50;
   font-weight: 600;
 }
+
 .movie {
   display: grid;
   grid-template-columns: 1fr 2fr;
   gap: 2rem;
+}
+
+.movie .buy-movie {
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.movie .buy-movie p {
+  font-size: 1.15rem;
+  font-weight: bold;
+}
+
+.movie .buy-movie .buy-btn {
+  padding: 0.5rem 2rem;
+  color: #000;
+  font-weight: bold;
+  outline: 2px solid #000;
+  border-radius: 1.5rem;
+  transition: all 200ms ease;
 }
