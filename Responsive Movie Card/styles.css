@@ -89,3 +89,8 @@ a {
   border-radius: 1.5rem;
   transition: all 200ms ease;
 }
+
+.movie .buy-movie .buy-btn:hover {
+  background-color: #000;
+  color: #fff;
+}
