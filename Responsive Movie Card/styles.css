@@ -94,3 +94,18 @@ a {
   background-color: #000;
   color: #fff;
 }
+
+.movie .movie-description .about-movie {
+  margin-bottom: 0.5rem;
+}
+
+.movie .movie-description .movie-text {
+  font-size: 1.25rem;
+}
+
+.movie .movie-description .credits {
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: space-between;
+}
