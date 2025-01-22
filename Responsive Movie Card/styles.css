@@ -40,3 +40,15 @@ a {
 .top {
   margin-bottom: 2rem;
 }
+
+.top .title-rating {
+  margin-bottom: 0.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.top .title-rating p {
+  color: #b1b1b4;
+  font-size: 1.15rem;
+}
