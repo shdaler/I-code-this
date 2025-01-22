@@ -109,3 +109,37 @@ a {
   grid-template-columns: 1fr 1fr 1fr;
   justify-content: space-between;
 }
+
+.movie .movie-description .credits h2 {
+  cursor: pointer;
+  color: #cd3e50;
+}
+
+.movie .movie-description .credits ul li:hover {
+  text-decoration: underline;
+}
+
+.movie .movie-description .credits .screenwriters {
+  margin-top: 1.5rem;
+}
+
+.movie .movie-description .more-link {
+  margin-top: 1rem;
+  width: fit-content;
+  color: #cd3e50;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.movie .movie-description .trailer-btn {
+  background-color: #000;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  margin: 1rem 0 0 auto;
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  border-radius: 1.5rem;
+  transition: all 200ms ease;
+}
