@@ -167,4 +167,11 @@ a {
   .container {
     padding: 2rem;
   }
+  .movie .movie-description .credits {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .movie .movie-description .credits > * {
+    margin-bottom: 1.5rem;
+  }
 }
