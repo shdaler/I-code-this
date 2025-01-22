@@ -5,3 +5,13 @@
   list-style-type: none;
   text-decoration: none;
 }
+
+body {
+  background-color: #f7f9fb;
+  color: #000;
+  min-height: 100vh;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  display: grid;
+  place-content: center;
+}
