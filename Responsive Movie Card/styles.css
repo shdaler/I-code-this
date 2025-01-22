@@ -52,3 +52,18 @@ a {
   color: #b1b1b4;
   font-size: 1.15rem;
 }
+
+.top .title-rating p span {
+  color: #cd3e50;
+  font-weight: bold;
+}
+
+.top .genre {
+  color: #cd3e50;
+  font-weight: 600;
+}
+.movie {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 2rem;
+}
