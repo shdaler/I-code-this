@@ -174,4 +174,7 @@ a {
   .movie .movie-description .credits > * {
     margin-bottom: 1.5rem;
   }
+  .movie .movie-description .trailer-btn {
+    margin: 2rem auto 0;
+  }
 }
