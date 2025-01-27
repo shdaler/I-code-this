@@ -1,0 +1,45 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #000;
+  background: linear-gradient(
+    335deg,
+    rgba(0, 0, 0, 1) 10%,
+    rgba(57, 60, 255, 1) 50%,
+    rgba(50, 255, 39, 1) 90%
+  );
+  color: #bebebe;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  min-height: 100vh;
+  display: grid;
+  place-content: center;
+}
+
+button {
+  cursor: pointer;
+  background-color: transparent;
+  color: #bebebe;
+  padding: 0.5rem 1rem;
+  border: 1px solid #32ff27;
+  border-radius: 1rem;
+  transition: all 200ms ease;
+}
+
+button:hover {
+  background-color: #32ff27;
+  color: #191931;
+}
+
+.container {
+  background-color: #191931;
+  max-width: 950px;
+  display: grid;
+  grid-template-columns: 25% 25% auto;
+  border: 1px solid #fff;
+  border-radius: 8px;
+  overflow: hidden;
+}
