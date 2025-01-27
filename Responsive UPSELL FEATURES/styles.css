@@ -141,7 +141,24 @@ button:hover {
   font-size: 0.75rem;
 }
 
-.block:hover .extra:hover {
+.block:hover,
+.extra:hover {
   background-color: #252543;
   transition: all 200ms ease;
+}
+
+@media (max-width: 768px) {
+  .container {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .block-3 {
+    grid-column: 1/-1;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    grid-template-columns: 1fr;
+  }
 }
