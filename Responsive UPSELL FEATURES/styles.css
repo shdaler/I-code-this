@@ -130,3 +130,18 @@ button:hover {
   left: -15px;
   transform: rotate(-30deg);
 }
+
+.block-3 .extra .saving-pack-details {
+  flex: 1;
+}
+
+.block-3 .extra .saving-pack-details span {
+  color: #585858;
+  padding-left: 1.5rem;
+  font-size: 0.75rem;
+}
+
+.block:hover .extra:hover {
+  background-color: #252543;
+  transition: all 200ms ease;
+}
