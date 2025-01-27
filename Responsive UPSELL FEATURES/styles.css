@@ -43,3 +43,11 @@ button:hover {
   border-radius: 8px;
   overflow: hidden;
 }
+
+.top-header {
+  grid-column: 1/-1;
+  font-size: 1.5rem;
+  padding: 2rem;
+  text-align: center;
+  border-bottom: 1px solid #9c9c9c;
+}
