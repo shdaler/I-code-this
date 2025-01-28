@@ -5,5 +5,26 @@ body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   display: grid;
   place-content: center;
-  overflow: hidden;
+  overflow: ;
 }
+
+/* .blob {
+    background-color: #f5a623;
+    width: 1000px;
+    height: 1000px;
+    position: absolute;
+    bottom: -200px;
+    right: -100px;
+    transform: rotate(45deg);
+    border-radius: 30% 0 0 30%;
+    z-index: 0;
+  }
+  
+  .container {
+    background-color: #202a47;
+    padding: 2rem;
+    border-radius: 0.75rem;
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+  } */
