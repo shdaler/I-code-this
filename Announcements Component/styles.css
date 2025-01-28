@@ -28,3 +28,40 @@ body {
   flex-direction: column;
   z-index: 1;
 }
+
+h1 {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.announcements {
+  max-width: 450px;
+}
+
+.announcement-item {
+  background-color: #202a47;
+  padding: 1rem 1.25rem;
+  display: grid;
+  grid-template-columns: 80% 20%;
+  row-gap: 10px;
+  position: relative;
+  border-radius: 0.5rem;
+}
+
+.announcement-item.hide {
+  display: none;
+}
+
+.announcement-item h2 {
+  font-size: 1.15rem;
+}
+
+.announcement-item .dots {
+  cursor: pointer;
+  color: #7984ab;
+  font-size: 2rem;
+  font-weight: bold;
+  position: absolute;
+  top: -5px;
+  right: 25px;
+}
