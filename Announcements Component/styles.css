@@ -1,0 +1,9 @@
+body {
+  background-color: #202a47;
+  color: #fff;
+  min-height: 100vh;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  display: grid;
+  place-content: center;
+  overflow: hidden;
+}
