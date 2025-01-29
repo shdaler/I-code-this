@@ -90,3 +90,15 @@ h1 {
   color: #7984ab;
   font-size: 0.9rem;
 }
+
+button {
+  color: #fff;
+  cursor: pointer;
+  background-color: #4a9bff;
+  font-weight: bold;
+  padding: 0.75rem 2rem;
+  width: max-content;
+  align-self: center;
+  border-radius: 0.25rem;
+  border: 0;
+}
