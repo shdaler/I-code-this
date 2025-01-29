@@ -114,3 +114,12 @@ button:hover {
 #dismiss-all-btn.hide {
   display: none;
 }
+
+#reset-btn {
+  display: none;
+}
+
+#reset-btn.show {
+  display: block;
+  margin-top: 6rem;
+}
