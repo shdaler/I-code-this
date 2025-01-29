@@ -14,3 +14,15 @@ dismissBtnEl.addEventListener("click", () => {
   dismissBtnEl.classList.add("hide");
   resetBtnEl.classList.add("show");
 });
+
+resetBtnEl.addEventListener("click", () => {
+  announcementItemEl.forEach((item) => {
+    item.classList.remove("hide");
+  });
+
+  announcementNumEl.innerText = "2";
+  document.querySelector(".announcements").style.width = "initial";
+
+  dismissBtnEl.classList.remove("hide");
+  resetBtnEl.classList.remove("show");
+});
