@@ -85,3 +85,8 @@ h1 {
   font-size: 0.9rem;
   font-weight: bold;
 }
+
+.announcement-item .announcement-time {
+  color: #7984ab;
+  font-size: 0.9rem;
+}
