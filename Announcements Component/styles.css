@@ -102,3 +102,15 @@ button {
   border-radius: 0.25rem;
   border: 0;
 }
+
+button:hover {
+  background-color: #6eafff;
+}
+
+#dismiss-all-btn {
+  margin-top: 12rem;
+}
+
+#dismiss-all-btn.hide {
+  display: none;
+}
