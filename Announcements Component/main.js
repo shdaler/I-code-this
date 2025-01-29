@@ -2,3 +2,15 @@ const announcementNumEl = document.getElementById("announcement-num");
 const announcementItemEl = document.querySelectorAll("#announcement-item");
 const dismissBtnEl = document.getElementById("dismiss-all-btn");
 const resetBtnEl = document.getElementById("reset-btn");
+
+dismissBtnEl.addEventListener("click", () => {
+  announcementItemEl.forEach((item) => {
+    item.classList.add("hide");
+  });
+
+  announcementNumEl.innerText = "0";
+  document.querySelector(".announcements").style.width = "515px";
+
+  dismissBtnEl.classList.add("hide");
+  resetBtnEl.classList.add("show");
+});
