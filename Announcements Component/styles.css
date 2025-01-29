@@ -5,19 +5,21 @@ body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   display: grid;
   place-content: center;
-  /* overflow: hidden; */
+  overflow: hidden;
 }
 
 .blob {
+  display: block;
   background-color: #f5a623;
   width: 1000px;
   height: 1000px;
   position: absolute;
   bottom: -200px;
-  right: -100px;
+  right: -30px;
   transform: rotate(45deg);
   border-radius: 30% 0 0 30%;
   z-index: 0;
+  /* overflow: hidden; */
 }
 
 .container {
@@ -73,7 +75,7 @@ h1 {
   gap: 12px;
 }
 
-.announcement-item. .avatar-info img {
+.announcement-item .avatar-info img {
   width: 40px;
   height: 40px;
   border: 3px solid #8893bc;
@@ -108,7 +110,7 @@ button:hover {
 }
 
 #dismiss-all-btn {
-  margin-top: 12rem;
+  margin-top: 6rem;
 }
 
 #dismiss-all-btn.hide {
