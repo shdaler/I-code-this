@@ -57,3 +57,22 @@ header nav .search-btn {
   font-size: 1.5rem;
   transition: all 100ms ease-in;
 }
+
+header nav .search-btn:hover {
+  color: aqua;
+}
+
+.container {
+  width: 80%;
+  min-width: 1200px;
+  margin: 0 auto;
+}
+
+.main-titles {
+  padding: 2rem 0;
+}
+
+.app-blocks {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
