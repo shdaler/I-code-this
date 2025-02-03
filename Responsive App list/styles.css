@@ -96,6 +96,8 @@ header nav .search-btn:hover {
 }
 
 .stars {
+  width: 70px;
+  height: 70px;
   display: flex;
   margin: 0.25rem 0;
 }
