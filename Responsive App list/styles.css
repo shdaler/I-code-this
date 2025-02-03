@@ -94,3 +94,20 @@ header nav .search-btn:hover {
 .app-title {
   font-weight: bold;
 }
+
+.stars {
+  display: flex;
+  margin: 0.25rem 0;
+}
+
+.install-btn {
+  cursor: pointer;
+  background-color: #191919;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border: 1px solid #191919;
+  border-bottom-color: aqua;
+  border-bottom-width: 3px;
+  border-radius: 4px;
+  transition: all 100ms ease-in;
+}
