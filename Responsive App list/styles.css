@@ -1,0 +1,59 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+}
+
+body {
+  background-color: #292929;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.4;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+header {
+  background-color: #191919;
+  color: #8a8a8a;
+  padding-top: 6rem;
+}
+
+main {
+  color: #fff;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header nav .nav-list {
+  display: flex;
+  gap: 2rem;
+}
+
+header nav .nav-list li {
+  cursor: pointer;
+  padding: 1rem;
+  transition: all 100ms ease-in;
+}
+
+header nav .nav-list li:hover {
+  color: aqua;
+}
+
+header nav .nav-list .active {
+  color: aqua;
+  border-bottom: 4px solid aqua;
+}
+
+header nav .search-btn {
+  cursor: pointer;
+  font-size: 1.5rem;
+  transition: all 100ms ease-in;
+}
