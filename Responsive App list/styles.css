@@ -111,3 +111,7 @@ header nav .search-btn:hover {
   border-radius: 4px;
   transition: all 100ms ease-in;
 }
+
+.install-btn:hover {
+  background-color: aqua;
+}
