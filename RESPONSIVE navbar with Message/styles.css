@@ -142,4 +142,8 @@ nav .nav-list li .underline {
   .shopping-cart-btn {
     display: none;
   }
+
+  nav {
+    justify-content: space-between;
+  }
 }
