@@ -101,3 +101,7 @@ nav .nav-list li .underline {
   margin-right: auto;
   border-radius: 1.5rem;
 }
+
+.nav-list .search-box i {
+  margin-right: 0.25rem;
+}
