@@ -88,7 +88,7 @@ nav .nav-list li .underline {
   transition: all 400ms ease;
 }
 
-nav .nav-list li .underline {
+nav .nav-list li:hover .underline {
   display: block;
   background-color: #197590;
   width: 100%;
