@@ -80,10 +80,17 @@ nav .nav-list li {
   cursor: pointer;
 }
 
-nav .nav-list .underline {
+nav .nav-list li .underline {
   display: block;
   background-color: #197590;
   width: 0;
   height: 2px;
   transition: all 400ms ease;
+}
+
+nav .nav-list li .underline {
+  display: block;
+  background-color: #197590;
+  width: 100%;
+  height: 2px;
 }
