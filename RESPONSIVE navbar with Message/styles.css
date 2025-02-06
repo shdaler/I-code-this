@@ -68,7 +68,7 @@ nav .logo {
   font-weight: bold;
 }
 
-.nav .nav-list {
+nav .nav-list {
   width: 100%;
   display: flex;
   align-items: center;
