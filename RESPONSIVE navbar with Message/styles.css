@@ -170,4 +170,11 @@ nav .nav-list li .underline {
   .nav-list .search-box {
     margin: initial;
   }
+
+  @media (max-width: 540px) {
+    nav .nav-list {
+      width: 90%;
+      padding: 1rem;
+    }
+  }
 }
