@@ -1,0 +1,21 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+section {
+  background-color: #555;
+  color: #fff;
+  height: 100vh;
+  font-weight: bold;
+  font-size: 3rem;
+  display: grid;
+  place-content: center;
+  outline: 2px solid #fff;
+}
