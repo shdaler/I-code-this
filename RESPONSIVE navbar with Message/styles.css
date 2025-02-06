@@ -146,4 +146,28 @@ nav .nav-list li .underline {
   nav {
     justify-content: space-between;
   }
+
+  nav .nav-list {
+    background-color: #fff;
+    width: 60%;
+    height: 100%;
+    padding: 2rem;
+    flex-direction: column;
+    align-items: initial;
+    justify-content: initial;
+    position: fixed;
+    top: 0;
+    right: 0;
+    outline: 2px solid #000;
+    transform: translate(100%);
+    transition: all 200ms ease;
+  }
+
+  nav .nav-list.active {
+    transform: translate(0);
+  }
+
+  .nav-list .search-box {
+    margin: initial;
+  }
 }
