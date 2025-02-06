@@ -127,6 +127,19 @@ nav .nav-list li .underline {
   cursor: pointer;
   font-size: 2rem;
   text-align: right;
-
   display: none;
+}
+
+@media (max-width: 768px) {
+  .mobile-menu-btn {
+    display: block;
+  }
+
+  .close-btn {
+    display: block;
+  }
+
+  .shopping-cart-btn {
+    display: none;
+  }
 }
