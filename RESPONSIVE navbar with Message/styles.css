@@ -75,3 +75,15 @@ nav .nav-list {
   justify-content: flex-end;
   gap: 1.5rem;
 }
+
+nav .nav-list li {
+  cursor: pointer;
+}
+
+nav .nav-list .underline {
+  display: block;
+  background-color: #197590;
+  width: 0;
+  height: 2px;
+  transition: all 400ms ease;
+}
