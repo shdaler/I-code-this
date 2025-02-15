@@ -17,3 +17,29 @@ body {
   position: relative;
   border-radius: 1.5rem;
 }
+
+.container .main-form.hide {
+  display: none;
+}
+
+.container .top-info {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.container .top-info h1 {
+  font-weight: bold;
+  font-size: 1.75em;
+}
+
+.container .top-info p {
+  max-width: 31ch;
+  margin: auto;
+}
+
+.container .email-inputs .emailInput {
+  width: 100%;
+  padding: 1rem;
+  border: 1px solid gainsboro;
+  border-radius: 4px;
+}
