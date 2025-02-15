@@ -9,4 +9,16 @@ let returnBtn = document.getElementById("return");
 
 submitBtn.addEventListener("click", (e) => {
   e.preventDefault();
+  const email = emailInput.value.trim();
+  const checkboxInput = document.getElementById("checkboxInput");
+
+  if (validateEmail(email) && checkboxInput.checked) {
+    formSuccess();
+    emailInput.value = "";
+    emailInput.classList.remove("active");
+    check.classList.remove("active");
+  } else {
+    emailInput.classList.add("active");
+    check.classList.add("active");
+  }
 });
