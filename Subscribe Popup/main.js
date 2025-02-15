@@ -32,3 +32,9 @@ function validateEmail(email) {
   const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
   return emailRegex.test(email);
 }
+
+returnBtn.addEventListener("click", () => {
+  document.getElementById("checkboxInput").checked = false;
+  mainForm.classList.remove("hide");
+  formSubmitted.classList.remove("show");
+});
