@@ -28,4 +28,7 @@ function formSuccess() {
   formSubmitted.classList.add("show");
 }
 
-function validateEmail(email) {}
+function validateEmail(email) {
+  const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+  return emailRegex.test(email);
+}
