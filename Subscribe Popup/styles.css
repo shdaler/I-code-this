@@ -48,3 +48,35 @@ body {
   background-color: rgba(255, 101, 101, 0.2);
   border: 1px solid red;
 }
+
+.container .email-inputs .email-checkbox {
+  margin: 1rem 0;
+  display: flex;
+  position: relative;
+}
+
+.container .email-inputs .email-checkbox p {
+  width: 30ch;
+  margin-left: 1rem;
+}
+
+.container .main-btn {
+  background-color: #2d2865;
+  color: #fff;
+  width: 100%;
+  padding: 1rem;
+}
+
+.custom-check {
+  cursor: pointer;
+  background-color: #fff;
+  color: #fff;
+  width: 20px;
+  height: 20px;
+  display: grid;
+  place-content: center;
+  position: absolute;
+  top: 14px;
+  left: -2px;
+  border: 1px solid gainsboro;
+}
