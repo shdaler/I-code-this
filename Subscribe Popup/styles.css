@@ -43,3 +43,8 @@ body {
   border: 1px solid gainsboro;
   border-radius: 4px;
 }
+
+.container .email-inputs .emailInput.active {
+  background-color: rgba(255, 101, 101, 0.2);
+  border: 1px solid red;
+}
