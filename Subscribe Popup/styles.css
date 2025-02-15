@@ -80,3 +80,14 @@ body {
   left: -2px;
   border: 1px solid gainsboro;
 }
+
+.checkboxInput:checked ~ .custom-check {
+  background-color: #2d2865;
+  color: #fff;
+}
+
+.custom-check:active {
+  content: "";
+  background-color: rgb(255, 101, 101);
+  color: rgb(255, 101, 101);
+}
