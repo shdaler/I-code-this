@@ -22,3 +22,10 @@ submitBtn.addEventListener("click", (e) => {
     check.classList.add("active");
   }
 });
+
+function formSuccess() {
+  mainForm.classList.add("hide");
+  formSubmitted.classList.add("show");
+}
+
+function validateEmail(email) {}
