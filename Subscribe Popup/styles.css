@@ -89,7 +89,7 @@ body {
 .custom-check:active {
   content: "";
   background-color: rgb(255, 101, 101);
-  color: rgb(255, 101, 101);
+  color: rgb(244, 99, 99);
   border: 1px solid red;
 }
 
