@@ -13,3 +13,17 @@ body {
   display: grid;
   place-content: center;
 }
+
+h1 {
+  color: #ffc943;
+  font-size: 1.15rem;
+  margin: 0.5rem 0;
+}
+
+button {
+  cursor: pointer;
+  background-color: #1d1d1d;
+  color: #ffc943;
+  width: 100%;
+  padding: 1.25rem;
+}
