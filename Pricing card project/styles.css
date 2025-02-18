@@ -71,4 +71,7 @@ i {
   right: -45px;
   background-color: #03a9f5;
   padding: 0.5rem 5rem;
+  font-weight: bold;
+  text-align: center;
+  transform: rotate(30deg);
 }
