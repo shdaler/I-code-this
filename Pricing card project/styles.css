@@ -51,3 +51,16 @@ i {
   grid-template-columns: 1fr 1fr 1fr;
   gap: 2rem;
 }
+
+.card {
+  position: relative;
+  box-shadow: 1 1rem 1.5rem #0000;
+  overflow: hidden;
+  transition: all 400ms ease;
+}
+
+.card:hover {
+  transform: scale(1.05) translateX(-10px);
+  box-shadow: 0 0rem 3rem #ffc943;
+  z-index: 10;
+}
