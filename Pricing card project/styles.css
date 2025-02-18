@@ -75,3 +75,11 @@ i {
   text-align: center;
   transform: rotate(30deg);
 }
+
+.card .mid-tier {
+  background-color: #aa00ff;
+}
+
+.card .high-tier {
+  background-color: deeppink;
+}
