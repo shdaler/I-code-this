@@ -83,3 +83,17 @@ i {
 .card .high-tier {
   background-color: deeppink;
 }
+
+.top-half {
+  background-color: #313131;
+  padding: 2rem 1.5rem;
+}
+
+.plant-image i {
+  font-size: 3.5rem;
+}
+
+.bottom-half {
+  background-color: #242424;
+  padding: 3rem 1.5rem;
+}
