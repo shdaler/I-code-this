@@ -64,3 +64,11 @@ i {
   box-shadow: 0 0rem 3rem #ffc943;
   z-index: 10;
 }
+
+.card .price {
+  position: absolute;
+  top: 10px;
+  right: -45px;
+  background-color: #03a9f5;
+  padding: 0.5rem 5rem;
+}
