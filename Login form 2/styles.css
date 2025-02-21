@@ -15,3 +15,34 @@ body {
   display: grid;
   place-content: center;
 }
+
+button {
+  cursor: pointer;
+  display: block;
+  color: #fff;
+  width: 100%;
+  padding: 1.5rem;
+  margin-bottom: 0.75rem;
+  font-weight: bold;
+  border: 0;
+  border-radius: 4px;
+}
+
+#login {
+  background-color: #a06bed;
+}
+
+#signup {
+  background-color: #f33c7f;
+}
+
+.container {
+  background-color: #fff;
+  max-width: 440px;
+  margin: 1rem;
+  padding: 2rem 2.5rem 4rem 2, 5rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
