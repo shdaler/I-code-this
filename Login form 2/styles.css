@@ -59,3 +59,34 @@ button {
   transform: translate(-50%);
   z-index: -1;
 }
+.container::after {
+  content: "";
+  display: block;
+  width: 90%;
+  height: 90%;
+  background-color: rgba(255, 255, 255, 0.6);
+  position: absolute;
+  top: -50px;
+  left: 50%;
+  transform: translate(-50%);
+  z-index: -2;
+}
+
+.gear-icon {
+  color: #a06bed;
+  font-size: 6rem;
+}
+
+.login-direction {
+  max-width: 44ch;
+}
+
+.login-desc p {
+  margin: 1rem 0 2rem;
+}
+
+.form-item {
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+}
