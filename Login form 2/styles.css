@@ -46,3 +46,16 @@ button {
   flex-direction: column;
   position: relative;
 }
+
+.container::before {
+  content: "";
+  display: block;
+  width: 95%;
+  height: 90%;
+  background-color: rgba(255, 255, 255, 0.6);
+  position: absolute;
+  top: -25px;
+  left: 50%;
+  transform: translate(-50%);
+  z-index: -1;
+}
