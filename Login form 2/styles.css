@@ -90,3 +90,7 @@ button {
   display: flex;
   align-items: center;
 }
+
+.form-item:not(:nth-child(3)) {
+  border-bottom: 4px solid #dcc9f7;
+}
