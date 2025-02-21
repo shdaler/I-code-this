@@ -106,3 +106,30 @@ button {
   justify-content: space-between;
   margin-bottom: 2rem;
 }
+
+.form-item .checkbox-item {
+  display: flex;
+  position: relative;
+}
+
+.form-item .checkbox-item .checkboxInput {
+  height: fit-content;
+  align-self: center;
+}
+
+.custom-check {
+  cursor: pointer;
+  background-color: #fff;
+
+  color: #fff;
+  width: 20px;
+  height: 20px;
+  display: grid;
+
+  place-content: center;
+
+  position: absolute;
+  top: 0%;
+  left: -1%;
+  border: 2px solid #a06bed;
+}
