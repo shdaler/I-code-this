@@ -102,7 +102,7 @@ button {
   outline: none;
 }
 
-.form-item:(:nth-child(3)) {
+.form-item: (: nth-child(3)) {
   justify-content: space-between;
   margin-bottom: 2rem;
 }
@@ -120,16 +120,22 @@ button {
 .custom-check {
   cursor: pointer;
   background-color: #fff;
-
   color: #fff;
   width: 20px;
   height: 20px;
   display: grid;
-
   place-content: center;
-
   position: absolute;
   top: 0%;
   left: -1%;
   border: 2px solid #a06bed;
+}
+
+.checkboxInput:checked ~ .custom-check {
+  background-color: #a06bed;
+  color: #fff;
+}
+
+.form-item .checkbox-item p {
+  margin-left: 0.5rem;
 }
