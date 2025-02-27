@@ -60,3 +60,19 @@ p {
   outline: 1px solid #fff;
   transition: all 400ms ease;
 }
+
+.main-btn:hover {
+  background-color: #fff;
+  color: #000;
+  outline: 1px solid #000;
+}
+
+.box {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 1.5rem;
+  border: 1px solid rgba(255, 255, 255, 0.125);
+  border-radius: 1rem;
+  outline: 1px solid rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(4px) saturate(80%);
+  -webkit-backdrop-filter: blur(4px) saturate(80%);
+}
