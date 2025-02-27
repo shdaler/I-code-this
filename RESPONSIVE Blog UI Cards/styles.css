@@ -45,3 +45,18 @@ p {
   margin: 1rem 0;
   font-size: 0.9rem;
 }
+
+.author a {
+  color: #fff;
+}
+
+.main-btn {
+  cursor: pointer;
+  color: #fff;
+  padding: 1.25rem 0.6rem;
+  margin-top: 1.5rem;
+  border: 0;
+  border-radius: 0.5rem;
+  outline: 1px solid #fff;
+  transition: all 400ms ease;
+}
