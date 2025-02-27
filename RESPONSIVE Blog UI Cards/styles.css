@@ -32,3 +32,16 @@ p {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.6;
 }
+
+.grid-container {
+  max-width: 1400px;
+  margin: 1rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2rem;
+}
+
+.author {
+  margin: 1rem 0;
+  font-size: 0.9rem;
+}
