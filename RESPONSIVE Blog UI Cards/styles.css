@@ -15,3 +15,20 @@ body {
   display: grid;
   place-content: center;
 }
+
+img {
+  max-width: 100%;
+  display: block;
+  border-radius: 1.25rem;
+}
+
+h2 {
+  margin: 1rem 0;
+  font-size: 1.9rem;
+}
+
+p {
+  font-size: 1.25rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+}
