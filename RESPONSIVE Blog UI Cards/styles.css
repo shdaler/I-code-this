@@ -90,5 +90,15 @@ p {
   display: flex;
   align-items: center;
   gap: 2rem;
-  grid-column: 2/-1;
+  grid-column: 2 /-1;
+}
+
+.box-2 .box-img img {
+  width: 250px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.box-3 {
+  grid-column: 2 / -1;
 }
