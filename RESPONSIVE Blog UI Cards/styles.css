@@ -120,4 +120,16 @@ p {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
   }
+
+  .box {
+    text-align: center;
+  }
+
+  .box-2 {
+    flex-direction: column;
+    grid-column: 1;
+  }
+
+  .box-2 .box-img img {
+  }
 }
