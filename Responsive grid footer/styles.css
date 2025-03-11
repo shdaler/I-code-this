@@ -63,3 +63,31 @@ footer {
 .block ul li:hover {
   background-color: rgba(0, 0, 0, 0.15);
 }
+
+.block-5 p {
+  margin: 1.5rem 0;
+}
+
+.block-5 button {
+  cursor: pointer;
+  background-color: #fff;
+  padding: 1rem;
+  font-size: 1.1rem;
+  font-weight: bold;
+  border: 0;
+  transition: all 400ms ease;
+}
+
+.block-5 button:hover {
+  box-shadow: 0 0 20px #fff;
+}
+
+@media (max-width: 1024px) {
+  footer {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .block-5 {
+    grid-column: span 2;
+  }
+}
