@@ -28,7 +28,7 @@ footer {
 }
 
 .block-1 {
-  border-color: #9ad1d4;
+  background-color: #3cd3d3;
 }
 
 .block-2 {
@@ -37,7 +37,7 @@ footer {
 }
 
 .block-3 {
-  background-color: #80ced6;
+  background-color: #61bdc7;
 }
 
 .block-4 {
@@ -61,7 +61,7 @@ footer {
 }
 
 .block ul li:hover {
-  background-color: rgba(0, 0, 0, 0.15);
+  background-color: rgba(161, 104, 104, 0.15);
 }
 
 .block-5 p {
@@ -89,5 +89,24 @@ footer {
 
   .block-5 {
     grid-column: span 2;
+  }
+}
+
+@media (max-width: 768px) {
+  .block {
+    padding: 4rem 2rem;
+  }
+}
+
+@media (max-width: 540px) {
+  footer {
+    grid-template-columns: 1fr;
+  }
+
+  .block-5 {
+    grid-column: initial;
+  }
+  .block {
+    padding: 2rem;
   }
 }
