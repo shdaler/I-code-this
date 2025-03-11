@@ -22,3 +22,37 @@ footer {
   border-radius: 1.75rem;
   overflow: hidden;
 }
+
+.block {
+  padding: 4rem;
+}
+
+.block-1 {
+  border-color: #9ad1d4;
+}
+
+.block-2 {
+  background-color: #007ea7;
+  color: #fff;
+}
+
+.block-3 {
+  background-color: #80ced6;
+}
+
+.block-4 {
+  background-color: #ccdbdc;
+}
+.block-5 {
+  color: #fff;
+}
+
+.box-heading {
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.block ul li {
+}
