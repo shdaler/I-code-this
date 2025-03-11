@@ -2,4 +2,23 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  list-style-type: none;
+}
+
+body {
+  background-color: #fff;
+  min-height: 100vh;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  display: grid;
+  place-content: center;
+}
+
+footer {
+  background-color: #003249;
+  max-width: 1400px;
+  margin: 1rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  border-radius: 1.75rem;
+  overflow: hidden;
 }
