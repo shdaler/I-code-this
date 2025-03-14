@@ -84,3 +84,11 @@ img {
 .right-column a {
   color: #a5abb8;
 }
+
+.right-column .email-information input {
+  width: 100%;
+  padding: 1rem;
+  display: block;
+  border: 1px solid #a5abb8;
+  border-radius: 1.75rem;
+}
