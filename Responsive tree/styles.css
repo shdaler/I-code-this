@@ -12,3 +12,18 @@ body {
   display: grid;
   place-content: center;
 }
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.email-container {
+  background-color: #fff;
+  max-width: 800px;
+  margin: 1rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border-radius: 1rem;
+  overflow: hidden;
+}
