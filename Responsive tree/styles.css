@@ -64,3 +64,14 @@ img {
   top: 1rem;
   right: 1.5rem;
 }
+
+.right-column .email-information {
+  margin-bottom: 4rem;
+}
+
+.right-column .email-information h1 {
+  color: #305c70;
+  max-width: 10ch;
+  margin: 0 auto 1rem auto;
+  font-size: 1.5rem;
+}
