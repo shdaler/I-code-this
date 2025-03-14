@@ -92,3 +92,17 @@ img {
   border: 1px solid #a5abb8;
   border-radius: 1.75rem;
 }
+
+.right-column .email-information button {
+  cursor: pointer;
+  background-color: #227293;
+  color: #fff;
+  width: 100%;
+  padding: 1rem;
+  margin-top: 1rem;
+  font-size: 1.15rem;
+  display: block;
+  border: 0;
+  border-radius: 1.75rem;
+  transform: all 200ms ease;
+}
