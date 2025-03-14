@@ -75,3 +75,12 @@ img {
   margin: 0 auto 1rem auto;
   font-size: 1.5rem;
 }
+
+.right-column .email-information p {
+  margin-bottom: 3rem;
+}
+
+.right-column .email-information p,
+.right-column a {
+  color: #a5abb8;
+}
