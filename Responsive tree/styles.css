@@ -106,3 +106,19 @@ img {
   border-radius: 1.75rem;
   transform: all 200ms ease;
 }
+
+.right-column .email-information button:hover {
+  background-color: #305c70;
+}
+
+@media (max-width: 768px) {
+  .email-container {
+    height: fit-content;
+    grid-template-columns: 1fr;
+    grid-template-rows: 30%;
+  }
+
+  .right-column {
+    max-height: 300px;
+  }
+}
