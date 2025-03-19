@@ -57,13 +57,16 @@ img {
   gap: 1.5rem;
 }
 
-.card-grid .left-card .card-grid .right-card {
+.card-grid .left-card,
+.card-grid .right-card {
   border-radius: 1rem;
   box-shadow: 5px 5px 10px 1px rgba(0, 0, 0.25);
   overflow: hidden;
   transition: all 400ms ease;
 }
-.card-grid .left-card:hover .card-grid .right-card:hover {
+
+.card-grid .left-card:hover,
+.card-grid .right-card:hover {
   transform: scale(1.05);
   z-index: 10;
 }
