@@ -63,3 +63,28 @@ img {
   overflow: hidden;
   transition: all 400ms ease;
 }
+.card-grid .left-card:hover .card-grid .right-card:hover {
+  transform: scale(1.05);
+  z-index: 10;
+}
+
+.card-grid .left-card {
+  position: relative;
+}
+
+.card-grid .left-card img {
+  object-fit: cover;
+  height: 100%;
+}
+
+.card-grid .left-card h1 {
+  color: #fff;
+  max-width: 25ch;
+  position: absolute;
+  bottom: 10%;
+  left: 5%;
+}
+
+.card-grid .right-card .right-card-text {
+  padding: 1.5rem;
+}
