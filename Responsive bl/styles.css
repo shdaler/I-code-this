@@ -88,3 +88,23 @@ img {
 .card-grid .right-card .right-card-text {
   padding: 1.5rem;
 }
+
+.card-grid .right-card .right-card-text h1 {
+  margin-bottom: 0.5rem;
+}
+
+.rea-more-btn {
+  cursor: pointer;
+  background-color: #663c9a;
+  color: #fff;
+  padding: 1rem 1.25rem;
+  border: 0;
+  border-radius: 0.25rem;
+  outline: 0;
+}
+
+.rea-more-btn:hover {
+  background-color: #9f69e1;
+}
+
+@media (max-width: 1024px);
