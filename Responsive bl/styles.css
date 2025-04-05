@@ -68,7 +68,7 @@ img {
 .card-grid .left-card:hover,
 .card-grid .right-card:hover {
   transform: scale(1.05);
-  z-index: 10;
+  z-index: 11;
 }
 
 .card-grid .left-card {
@@ -81,8 +81,8 @@ img {
 }
 
 .card-grid .left-card h1 {
-  color: #fff;
-  max-width: 25ch;
+  color: #f4f3f3;
+  max-width: 26ch;
   position: absolute;
   bottom: 10%;
   left: 5%;
