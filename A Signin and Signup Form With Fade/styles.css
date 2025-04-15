@@ -60,3 +60,31 @@ button {
     opacity: 1;
   }
 }
+
+.form-item {
+  padding-top: 1.15rem;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+
+  justify-content: center;
+  position: relative;
+  border-bottom: 2px solid #079e9e;
+}
+
+.form-item:nth-child(3) {
+  border: 0;
+}
+
+.form-item a {
+  color: #fff;
+}
+
+.form-item .form-label {
+  pointer-events: none;
+  cursor: text;
+  position: absolute;
+  top: 0px;
+  left: 5px;
+  transition: all 200ms ease;
+}
