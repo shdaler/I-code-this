@@ -101,3 +101,26 @@ button {
 .form-item .form-field::placeholder {
   color: transparent;
 }
+
+.form-item .form-field:placeholder-shown ~ .form-label {
+  color: #fff;
+  top: 30px;
+  left: 5px;
+}
+
+.form-item .form-field:focus ~ .form-label {
+  color: #079e9e;
+  font-weight: bold;
+  position: absolute;
+  top: 0;
+  left: 5px;
+}
+
+.form-item input[type="checkbox"],
+.form-item input[type="radio"] {
+  cursor: pointer;
+  appearance: none;
+  height: 15px;
+  width: 15px;
+  outline: 2px solid #079e9e;
+}
