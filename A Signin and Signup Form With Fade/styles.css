@@ -97,3 +97,7 @@ button {
   border: 0;
   outline: 0;
 }
+
+.form-item .form-field::placeholder {
+  color: transparent;
+}
