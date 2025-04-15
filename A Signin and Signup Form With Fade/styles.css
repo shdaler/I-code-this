@@ -168,3 +168,33 @@ button {
   text-align: center;
   text-decoration: none;
 }
+
+.fb-login i {
+  margin-right: 1rem;
+  font-size: 1.25rem;
+}
+
+#signup .form-item:nth-child(3) {
+  border-bottom: 2px solid #079e9e;
+}
+#signup .form-item:nth-child(4) {
+  border-bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+@media (max-width: 400px) {
+  .form-tab {
+    width: 90%;
+  }
+
+  .tab-headers button {
+    padding: 1.25rem 2rem;
+  }
+
+  .form-tab .tab-content {
+    background-color: #00000090;
+    padding: 2rem;
+  }
+}
