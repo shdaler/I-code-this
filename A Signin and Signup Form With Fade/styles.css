@@ -16,3 +16,15 @@ body {
   display: grid;
   align-items: center;
 }
+
+button {
+  cursor: pointer;
+  border: none;
+}
+
+.form-tab {
+  width: 100%;
+  max-width: 400px;
+  margin: 1rem auto;
+  outline: 1px solid #909090;
+}
