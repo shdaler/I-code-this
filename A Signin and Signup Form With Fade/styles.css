@@ -28,3 +28,21 @@ button {
   margin: 1rem auto;
   outline: 1px solid #909090;
 }
+
+.tab-headers {
+  display: flex;
+}
+
+.tab-headers button {
+  background-color: #fff;
+  color: #079e9e;
+  padding: 1.25rem 4rem;
+  font-size: 1rem;
+  flex: 1;
+  transition: all 400ms ease;
+}
+
+.tab-headers button.active {
+  background-color: #00000090;
+  color: #fff;
+}
