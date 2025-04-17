@@ -1,166 +1,36 @@
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-
-body {
-  background-color: #4c647e;
-  background-image: url(./image/pexels-pixabay-326055.jpg);
-  background-position: center;
-  background-size: cover;
-  min-height: 100vh;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  display: grid;
-  place-content: center;
-}
-
-#show-modal {
-  font-size: 1.25rem;
-}
-
-.blue-btn {
-  cursor: pointer;
-  background-color: #337ece;
-  color: #d2deea;
-  padding: 0.5rem 1rem;
-  border: 0;
-  border-radius: 0.5rem;
-  transition: all 200ms ease;
-}
-
-.blue-btn:hover {
-  background-color: #498bd2;
-  box-shadow: 5px 10px 10px -5px rgba(73, 139, 210, 1);
-}
-
-.light-blue-btn {
-  cursor: pointer;
-  background-color: #d2deea;
-  color: #498bd2;
-  padding: 0.5rem 1rem;
-  border: 0;
-  border-radius: 0.5rem;
-  transition: all 200ms ease;
-}
-
-.light-blue-btn:hover {
-  background-color: #c7d0da;
-  box-shadow: 5px 10px 10px -5px rgba(210, 222, 234, 1);
-}
-
-#close-modal-button {
-  cursor: pointer;
-}
-
-.modal-container {
-  pointer-events: none;
-  background-color: #fff;
-  color: #a7a7a7;
-  padding: 1rem;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* полупрозрачный фон */
   opacity: 0;
-  transition: opacity 400ms ease;
+  pointer-events: none;
+  transition: opacity 300ms ease;
+  z-index: 5;
 }
 
-.modal-container.show {
-  pointer-events: initial;
-  display: block;
+.modal-overlay.show {
   opacity: 1;
+  pointer-events: all;
 }
 
-.modal-header {
-  margin-bottom: 1rem;
-  font-size: 1.25rem;
-  font-weight: 500;
-  display: flex;
-  justify-content: space-between;
-  border-bottom: 1px solid #a7a7a7;
-}
-
-.modal-description {
-  margin-bottom: 2rem;
-  text-align: center;
-}
-
-.modal-description .question-mark-icon {
-  background-color: #c7d0da;
-  color: #fff;
-  margin: 0rem auto 1rem auto;
-  width: 75px;
-  height: 75px;
-  font-size: 5rem;
-  display: grid;
-  place-content: center;
-  border-radius: 50%;
-}
-
-.modal-description .modal-message {
-  color: #337ece;
-  font-size: 1.25em;
-}
-.modal-controls p {
-  padding: 0 3rem;
-  font-size: 0.9rem;
-  text-align: center;
-  margin-bottom: 1rem;
-}
-
-.modal-controls .modal-buttons {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 1rem;
-}
-
-.modal-controls .modal-buttons button {
-  width: 100px;
-  padding: 0.5rem 0;
-  font-size: 1.5rem;
-}
-
+.modal-container,
 .modal-accept-container {
-  pointer-events: none;
-  background-color: #fff;
-  color: #a7a7a7;
-  padding: 1rem;
-  text-align: center;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  opacity: 0;
-  transition: opacity 400ms ease;
+  z-index: 10;
+  border-radius: 1rem;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+  animation: fadeInUp 400ms ease;
 }
 
-.modal-accept-container.show {
-  pointer-events: initial;
-  display: block;
-  opacity: 1;
-}
-
-.modal-accept-container .check-icon {
-  background-color: #00ae23;
-  color: #fff;
-  margin: auto;
-  width: 75px;
-  height: 75px;
-  font-size: 4rem;
-  display: grid;
-  place-content: center;
-  border-radius: 50%;
-}
-
-.modal-accept-container p {
-  font-size: 2rem;
-  padding: 0.2rem;
-}
-
-@media (max-width: 768px) {
-  .modal-controls p {
-    padding: 0 1.5rem;
+@keyframes fadeInUp {
+  from {
+    transform: translate(-50%, -60%);
+    opacity: 0;
+  }
+  to {
+    transform: translate(-50%, -50%);
+    opacity: 1;
   }
 }
