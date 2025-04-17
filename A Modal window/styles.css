@@ -135,3 +135,21 @@ body {
   opacity: 0;
   transition: opacity 400ms ease;
 }
+
+.modal-accept-container.show {
+  pointer-events: initial;
+  display: block;
+  opacity: 1;
+}
+
+.modal-accept-container .check-icon {
+  background-color: #00ae23;
+  color: #fff;
+  margin: auto;
+  width: 75px;
+  height: 75px;
+  font-size: 4rem;
+  display: grid;
+  place-content: center;
+  border-radius: 50%;
+}
