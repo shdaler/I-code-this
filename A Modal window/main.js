@@ -24,3 +24,7 @@ closeModalAcceptContainer.addEventListener("click", () => {
 modalCancel.addEventListener("click", () => {
   mainModalContainer.classList.remove("show");
 });
+
+closeMainModalButton.addEventListener("click", () => {
+  mainModalContainer.classList.remove("show");
+});
