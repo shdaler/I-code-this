@@ -9,7 +9,7 @@ const modalAcceptContainer = document.getElementById("modal-accept-container");
 const closeModalAcceptContainer = document.getElementById("close-accept-modal");
 
 modalButton.addEventListener("click", () => {
-  mainModalContainer.classList("show");
+  mainModalContainer.classList.add("show");
 });
 
 modalOk.addEventListener("click", () => {
