@@ -48,3 +48,20 @@ body {
   background-color: #c7d0da;
   box-shadow: 5px 10px 10px -5px rgba(210, 222, 234, 1);
 }
+
+#close-modal-button {
+  cursor: pointer;
+}
+
+.modal-container {
+  pointer-events: none;
+  background-color: #fff;
+  color: #a7a7a7;
+  padding: 1rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: opacity 400ms ease;
+}
