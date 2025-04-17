@@ -33,3 +33,18 @@ body {
   background-color: #498bd2;
   box-shadow: 5px 10px 10px -5px rgba(73, 139, 210, 1);
 }
+
+.light-blue-btn {
+  cursor: pointer;
+  background-color: #d2deea;
+  color: #498bd2;
+  padding: 0.5rem 1rem;
+  border: 0;
+  border-radius: 0.5rem;
+  transition: all 200ms ease;
+}
+
+.light-blue-btn:hover {
+  background-color: #c7d0da;
+  box-shadow: 5px 10px 10px -5px rgba(210, 222, 234, 1);
+}
