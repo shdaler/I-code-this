@@ -62,7 +62,7 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  opacity: 0;
+  /* opacity: 0; */
   transition: opacity 400ms ease;
 }
 
@@ -70,4 +70,18 @@ body {
   pointer-events: initial;
   display: block;
   opacity: 1;
+}
+
+.modal-header {
+  margin-bottom: 1rem;
+  font-size: 1.25rem;
+  font-weight: 500;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #a7a7a7;
+}
+
+.modal-description {
+  margin-bottom: 2rem;
+  text-align: center;
 }
