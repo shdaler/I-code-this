@@ -143,7 +143,7 @@ body {
 }
 
 .modal-accept-container .check-icon {
-  background-color: #00ae23;
+  background-color:rgb(5, 179, 40);
   color: #fff;
   margin: auto;
   width: 75px;
@@ -184,7 +184,7 @@ body {
 
 .modal-container,
 .modal-accept-container {
-  z-index: 10;
+  z-index: 11;
   border-radius: 1rem;
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
   animation: fadeInUp 400ms ease;
