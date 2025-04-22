@@ -105,3 +105,14 @@ nav .bottom-nav .search-box i {
   align-items: center;
   gap: 1rem;
 }
+
+.main-grid .article-author img {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.main-grid .left-column {
+  grid-column: 1/2;
+}
