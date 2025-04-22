@@ -173,4 +173,17 @@ nav .bottom-nav .search-box i {
   .main-grid h1 {
     font-size: 3rem;
   }
+
+  .main-grid .left-column .title {
+    font-size: 2.5rem;
+  }
+
+  .main-grid .right-column .side-articles .article .title {
+    font-size: 1.5rem;
+  }
+
+  .main-grid .article-author img {
+    width: 30px;
+    height: 30px;
+  }
 }
