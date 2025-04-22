@@ -12,7 +12,13 @@ body {
 }
 
 img {
-  max-width: 90%;
+  max-width: 100%;
+  display: block;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
   margin: auto;
 }
 
@@ -122,6 +128,11 @@ nav .bottom-nav .search-box i {
   font-size: 3rem;
 }
 
+.main-grid .left-column h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
 .main-grid .right-column .side-articles .article {
   cursor: pointer;
   margin-bottom: 2rem;
@@ -135,7 +146,7 @@ nav .bottom-nav .search-box i {
   height: 150px;
   object-fit: cover;
 }
-.main-grid .right-column .side-articles .article {
+.main-grid .right-column .side-articles .article .title {
   font-size: 2rem;
   font-weight: 600;
 }
