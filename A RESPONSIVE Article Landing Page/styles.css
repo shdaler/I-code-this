@@ -4,3 +4,57 @@
   box-sizing: border-box;
   list-style-type: none;
 }
+
+body {
+  background-color: #fff;
+  color: #000;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+img {
+  max-width: 90%;
+  margin: auto;
+}
+
+nav {
+  margin-bottom: 2rem;
+  font-weight: 600;
+}
+
+nav .top-nav {
+  padding: 2rem 0;
+  border-bottom: 1px solid #000;
+}
+
+nav .bottom-nav {
+  padding: 2rem 0;
+}
+
+nav .top-nav .top-nav-container,
+nav .bottom-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav .top-nav .top-nav-container .nav-list,
+nav .bottom-nav ul {
+  display: flex;
+  gap: 2rem;
+}
+
+nav .bottom-nav ul li {
+  margin-bottom: 0.5rem;
+}
+
+nav .top-nav .top-nav-container .nav-btns {
+  display: flex;
+  gap: 1rem;
+}
+
+nav .top-nav .top-nav-container .nav-btns a {
+  padding: 0.5rem 1.5rem;
+  text-decoration: none;
+  border-radius: 1.5rem;
+  outline: 1px solid #000;
+}
