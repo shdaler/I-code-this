@@ -82,7 +82,7 @@ nav .bottom-nav ul li {
 
 nav .bottom-nav .search-box input {
   padding: 0.25rem;
-  font-size: 1.05rem;
+  font-size: 1.04rem;
   border: 0;
   outline: 0;
 }
@@ -180,7 +180,7 @@ nav .bottom-nav .search-box i {
   }
 }
 
-@media (max-width: 540px) {
+@media (max-width: 541px) {
   .main-grid h1 {
     font-size: 3rem;
   }
