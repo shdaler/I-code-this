@@ -22,3 +22,10 @@ body {
   color: #14203e;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
+
+.wrapper {
+  max-width: 1400px;
+  width: 90%;
+  margin: auto;
+  overflow: hidden;
+}
