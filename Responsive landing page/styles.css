@@ -16,3 +16,9 @@ button {
   border: 0;
   border-radius: 0.5rem;
 }
+
+body {
+  background-color: #d5e7dc;
+  color: #14203e;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
