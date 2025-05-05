@@ -158,3 +158,26 @@ nav .mobile-bar-btn {
 .blog-cards .cards .card h3 {
   margin: 1rem 0;
 }
+
+@media (max-width: 1024px) {
+  nav .login-buttons {
+    display: none;
+  }
+
+  nav .mobile-bar-btn {
+    display: block;
+  }
+
+  nav .nav-links {
+    background-color: rgb(194, 205, 294);
+    padding: 1.5rem;
+    width: 50%;
+    height: 100%;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    right: 0;
+    transform: translateX(100%);
+    transition: all 200ms ease;
+  }
+}
