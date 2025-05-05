@@ -64,3 +64,21 @@ nav .nav-links {
   display: flex;
   gap: 2rem;
 }
+
+nav .nav-links li:hover {
+  text-decoration: underline;
+}
+
+nav .nav-links #close-menu-btn {
+  display: none;
+}
+
+nav .login-buttons {
+  position: absolute;
+  right: 0;
+}
+
+nav .login-buttons button {
+  padding: 0.5rem 1rem;
+  margin-left: 0.5rem;
+}
