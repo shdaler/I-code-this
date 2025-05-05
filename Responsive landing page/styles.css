@@ -82,3 +82,29 @@ nav .login-buttons button {
   padding: 0.5rem 1rem;
   margin-left: 0.5rem;
 }
+
+nav .login-buttons .light-btn {
+  background-color: #d5e7dc;
+  color: #14203e;
+}
+
+nav .mobile-bar-btn {
+  cursor: pointer;
+  display: none;
+  font-size: 1.5rem;
+}
+
+.blog-cards {
+  background-color: #fff;
+}
+
+.hero {
+  background-color: #d5e7dc;
+  max-width: 70ch;
+  padding: 8rem 0;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
