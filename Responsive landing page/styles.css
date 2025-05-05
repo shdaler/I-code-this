@@ -29,3 +29,38 @@ body {
   margin: auto;
   overflow: hidden;
 }
+
+header {
+  background-color: #fff;
+}
+
+.dark-btn {
+  background-color: #14203e;
+  color: #d5e7dc;
+}
+
+.dark-btn:hover {
+  background-color: #293146;
+  color: #d5e7dc;
+}
+
+nav {
+  padding: 2rem 0;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+nav .logo {
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+nav .nav-links {
+  cursor: pointer;
+  margin: auto;
+  font-size: 1.15rem;
+  display: flex;
+  gap: 2rem;
+}
