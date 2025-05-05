@@ -180,4 +180,19 @@ nav .mobile-bar-btn {
     transform: translateX(100%);
     transition: all 200ms ease;
   }
+
+  nav .nav-links.show {
+    transform: translateX(0);
+  }
+
+  nav .nav-links #close-menu-btn {
+    display: block;
+    text-align: right;
+  }
+}
+
+@media (max-width: 540px) {
+  nav .nav-links {
+    width: 60%;
+  }
 }
