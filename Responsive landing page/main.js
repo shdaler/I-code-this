@@ -5,3 +5,7 @@ const closeBtn = document.getElementById("close-menu-btn");
 mobileBtn.addEventListener("click", () => {
   navLinks.classList.add("show");
 });
+
+closeBtn.addEventListener("click", () => {
+  navLinks.classList.remove("show");
+});
