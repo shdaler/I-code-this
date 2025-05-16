@@ -110,4 +110,8 @@ header nav .menu-bars {
 }
 
 .cards-container {
+  width: 90%;
+  max-width: 1200px;
+  padding-bottom: 2rem;
+  margin: auto;
 }
