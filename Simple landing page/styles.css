@@ -168,4 +168,8 @@ header nav .menu-bars {
   .hero {
     height: 70vh;
   }
+
+  .hero .hero-text {
+    padding: 2.5rem;
+  }
 }
