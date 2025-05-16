@@ -153,3 +153,19 @@ header nav .menu-bars {
     display: block;
   }
 }
+
+@media (max-width: 640px) {
+  .cards {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 540px) {
+  header nav .nav-links {
+    display: none;
+  }
+
+  .hero {
+    height: 70vh;
+  }
+}
