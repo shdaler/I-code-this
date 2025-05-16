@@ -129,3 +129,8 @@ header nav .menu-bars {
   outline: 1px solid #354162;
   transition: all 200ms ease;
 }
+
+.card a:hover {
+  background-color: #354162;
+  color: #fff;
+}
