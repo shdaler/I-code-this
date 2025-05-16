@@ -56,3 +56,21 @@ header nav .nav-actions {
   align-items: center;
   gap: 1rem;
 }
+
+header nav .nav-links a:hover {
+  text-decoration: underline;
+}
+
+header nav .nav-actions .link-secondary:hover {
+  text-decoration: underline;
+}
+
+header nav .menu-bars {
+  display: none;
+}
+
+.header-container {
+  width: 90%;
+  max-width: 1400px;
+  margin: auto;
+}
