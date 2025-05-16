@@ -147,4 +147,9 @@ header nav .menu-bars {
   header nav .nav-actions {
     display: none;
   }
+  header nav .menu-bars {
+    font-size: 1.5rem;
+    margin-left: auto;
+    display: block;
+  }
 }
