@@ -10,7 +10,7 @@ img {
 }
 
 a {
-  color: #000;
+  color: #080808;
   width: max-content;
   display: block;
   text-decoration: none;
@@ -87,7 +87,7 @@ header nav .menu-bars {
 }
 
 .hero .hero-text {
-  background-color: #03176475;
+  background-color: #04196d75;
   color: #fff;
   padding: 3rem;
   margin: 1rem;
