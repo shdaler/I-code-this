@@ -189,4 +189,12 @@ nav .nav-list li button {
     text-align: center;
     grid-template-columns: 1fr;
   }
+
+  .information h1 {
+    max-width: initial;
+  }
+
+  .benefits-container {
+    grid-template-columns: 1fr;
+  }
 }
