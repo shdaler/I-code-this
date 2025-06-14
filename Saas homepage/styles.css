@@ -110,3 +110,18 @@ nav .nav-list li button {
   border: 1px solid #757575;
   border-radius: 4px;
 }
+
+.email-sign-up button {
+  padding: 1rem 2rem;
+  margin-left: 0.5rem;
+}
+
+.benefits-container {
+  background-color: #2d2b40;
+  padding: 5rem 4rem;
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 2rem;
+  border-radius: 16px;
+}
