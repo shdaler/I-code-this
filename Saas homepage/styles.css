@@ -169,4 +169,24 @@ nav .nav-list li button {
   nav .nav-list li:hover {
     color: #2d2b40;
   }
+
+  nav .nav-list li button {
+    background-color: #2d2b40;
+    width: 100%;
+  }
+
+  .close-btn {
+    display: block;
+    align-self: end;
+    width: min-content;
+  }
+
+  .mobile-bars {
+    display: block;
+  }
+
+  .hero-container {
+    text-align: center;
+    grid-template-columns: 1fr;
+  }
 }
