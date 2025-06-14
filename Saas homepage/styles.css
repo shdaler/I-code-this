@@ -92,6 +92,21 @@ nav .nav-list li button {
   max-width: 20cqh;
 }
 
+.hero-img {
+  width: 80%; /* или любое нужное значение: 50%, 300px и т.д. */
+  max-width: 400px; /* ограничение максимальной ширины */
+  height: auto; /* сохраняет пропорции */
+}
+
+/* .hero-image {
+  max-width: 400px;
+  width: 100%;
+}
+.hero-image img {
+  width: 100%;
+  height: auto;
+} */
+
 .information .email-sign-up {
   display: flex;
 }
